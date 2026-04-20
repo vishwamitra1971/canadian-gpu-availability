@@ -1,6 +1,6 @@
 [
   {
-    "timestamp": "2026-04-20T16:04:25.968Z",
+    "timestamp": "2026-04-20T16:34:44.126Z",
     "provider": "hut8",
     "country": "CA",
     "region": "hut8-canada",
@@ -12,14 +12,14 @@
     "probe_type": "badge_scrape",
     "endpoint": "https://hut8.com/",
     "request_hash": "11d1a2f26262ae10ea173027a7718d27f1f50b4263ff6326e46f1aae1d54fd78",
-    "response_hash": "3155abdc1d6a2b6170ce9bd5b124cc86f610df8b838f85715cb70500e0aa0ac2",
+    "response_hash": "024fb3b65203b944aad5e3f694afa1dd1d742418c66eb82df743a041562c8c54",
     "response_excerpt": "Hut 8 .logo-wrapper[data-v-e1db8e04]{left:var(--grid-padding);max-width:240px;min-width:74px;mix-blend-mode:difference;opacity:0;position:fixed;top:var(--space-24,24px);visibility:none;width:74px;z-index:10}.logo-wrapper:hover .logo[data-v-e1db8e04]{transform:rotate(180deg)}.logo[data-v-e1db8e04]{pointer-events:none;position:relative;transition:.8s cubic-bezier(.83,0,.17,1);width:100%} .main-menu-wrapper[data-v-5ecaf862]{opacity:0;visibility:hidden}.main-menu-wrapper.open .main-menu[data-v-5ecaf",
-    "probe_duration_ms": 878,
+    "probe_duration_ms": 782,
     "probe_version": "0.1.0",
     "taxonomy_version": "taxonomy_v1"
   },
   {
-    "timestamp": "2026-04-20T16:04:25.968Z",
+    "timestamp": "2026-04-20T16:34:44.126Z",
     "provider": "hut8",
     "country": "CA",
     "region": "hut8-canada",
@@ -31,14 +31,14 @@
     "probe_type": "badge_scrape",
     "endpoint": "https://hut8.com/",
     "request_hash": "11d1a2f26262ae10ea173027a7718d27f1f50b4263ff6326e46f1aae1d54fd78",
-    "response_hash": "3155abdc1d6a2b6170ce9bd5b124cc86f610df8b838f85715cb70500e0aa0ac2",
+    "response_hash": "024fb3b65203b944aad5e3f694afa1dd1d742418c66eb82df743a041562c8c54",
     "response_excerpt": "Hut 8 .logo-wrapper[data-v-e1db8e04]{left:var(--grid-padding);max-width:240px;min-width:74px;mix-blend-mode:difference;opacity:0;position:fixed;top:var(--space-24,24px);visibility:none;width:74px;z-index:10}.logo-wrapper:hover .logo[data-v-e1db8e04]{transform:rotate(180deg)}.logo[data-v-e1db8e04]{pointer-events:none;position:relative;transition:.8s cubic-bezier(.83,0,.17,1);width:100%} .main-menu-wrapper[data-v-5ecaf862]{opacity:0;visibility:hidden}.main-menu-wrapper.open .main-menu[data-v-5ecaf",
-    "probe_duration_ms": 878,
+    "probe_duration_ms": 782,
     "probe_version": "0.1.0",
     "taxonomy_version": "taxonomy_v1"
   },
   {
-    "timestamp": "2026-04-20T16:04:25.968Z",
+    "timestamp": "2026-04-20T16:34:44.126Z",
     "provider": "hut8",
     "country": "CA",
     "region": "hut8-canada",
@@ -50,14 +50,14 @@
     "probe_type": "badge_scrape",
     "endpoint": "https://hut8.com/",
     "request_hash": "11d1a2f26262ae10ea173027a7718d27f1f50b4263ff6326e46f1aae1d54fd78",
-    "response_hash": "3155abdc1d6a2b6170ce9bd5b124cc86f610df8b838f85715cb70500e0aa0ac2",
+    "response_hash": "024fb3b65203b944aad5e3f694afa1dd1d742418c66eb82df743a041562c8c54",
     "response_excerpt": "Hut 8 .logo-wrapper[data-v-e1db8e04]{left:var(--grid-padding);max-width:240px;min-width:74px;mix-blend-mode:difference;opacity:0;position:fixed;top:var(--space-24,24px);visibility:none;width:74px;z-index:10}.logo-wrapper:hover .logo[data-v-e1db8e04]{transform:rotate(180deg)}.logo[data-v-e1db8e04]{pointer-events:none;position:relative;transition:.8s cubic-bezier(.83,0,.17,1);width:100%} .main-menu-wrapper[data-v-5ecaf862]{opacity:0;visibility:hidden}.main-menu-wrapper.open .main-menu[data-v-5ecaf",
-    "probe_duration_ms": 878,
+    "probe_duration_ms": 782,
     "probe_version": "0.1.0",
     "taxonomy_version": "taxonomy_v1"
   },
   {
-    "timestamp": "2026-04-20T16:04:25.968Z",
+    "timestamp": "2026-04-20T16:34:44.126Z",
     "provider": "hut8",
     "country": "CA",
     "region": "hut8-canada",
@@ -69,14 +69,14 @@
     "probe_type": "badge_scrape",
     "endpoint": "https://hut8.com/",
     "request_hash": "11d1a2f26262ae10ea173027a7718d27f1f50b4263ff6326e46f1aae1d54fd78",
-    "response_hash": "3155abdc1d6a2b6170ce9bd5b124cc86f610df8b838f85715cb70500e0aa0ac2",
+    "response_hash": "024fb3b65203b944aad5e3f694afa1dd1d742418c66eb82df743a041562c8c54",
     "response_excerpt": "Hut 8 .logo-wrapper[data-v-e1db8e04]{left:var(--grid-padding);max-width:240px;min-width:74px;mix-blend-mode:difference;opacity:0;position:fixed;top:var(--space-24,24px);visibility:none;width:74px;z-index:10}.logo-wrapper:hover .logo[data-v-e1db8e04]{transform:rotate(180deg)}.logo[data-v-e1db8e04]{pointer-events:none;position:relative;transition:.8s cubic-bezier(.83,0,.17,1);width:100%} .main-menu-wrapper[data-v-5ecaf862]{opacity:0;visibility:hidden}.main-menu-wrapper.open .main-menu[data-v-5ecaf",
-    "probe_duration_ms": 878,
+    "probe_duration_ms": 782,
     "probe_version": "0.1.0",
     "taxonomy_version": "taxonomy_v1"
   },
   {
-    "timestamp": "2026-04-20T16:04:25.968Z",
+    "timestamp": "2026-04-20T16:34:44.126Z",
     "provider": "hut8",
     "country": "CA",
     "region": "hut8-canada",
@@ -88,9 +88,9 @@
     "probe_type": "badge_scrape",
     "endpoint": "https://hut8.com/",
     "request_hash": "11d1a2f26262ae10ea173027a7718d27f1f50b4263ff6326e46f1aae1d54fd78",
-    "response_hash": "3155abdc1d6a2b6170ce9bd5b124cc86f610df8b838f85715cb70500e0aa0ac2",
+    "response_hash": "024fb3b65203b944aad5e3f694afa1dd1d742418c66eb82df743a041562c8c54",
     "response_excerpt": "Hut 8 .logo-wrapper[data-v-e1db8e04]{left:var(--grid-padding);max-width:240px;min-width:74px;mix-blend-mode:difference;opacity:0;position:fixed;top:var(--space-24,24px);visibility:none;width:74px;z-index:10}.logo-wrapper:hover .logo[data-v-e1db8e04]{transform:rotate(180deg)}.logo[data-v-e1db8e04]{pointer-events:none;position:relative;transition:.8s cubic-bezier(.83,0,.17,1);width:100%} .main-menu-wrapper[data-v-5ecaf862]{opacity:0;visibility:hidden}.main-menu-wrapper.open .main-menu[data-v-5ecaf",
-    "probe_duration_ms": 878,
+    "probe_duration_ms": 782,
     "probe_version": "0.1.0",
     "taxonomy_version": "taxonomy_v1"
   }
