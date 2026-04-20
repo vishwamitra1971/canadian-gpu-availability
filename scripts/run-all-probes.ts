@@ -2,6 +2,10 @@ import { runAzureProbe } from '../probes/azure/src/probe.js';
 import { runOvhProbe } from '../probes/ovh/src/probe.js';
 import { runHut8Probe } from '../probes/hut8/src/probe.js';
 import { runIrenProbe } from '../probes/iren/src/probe.js';
+import { runGcpProbe } from '../probes/gcp/src/probe.js';
+import { runDigitalOceanProbe } from '../probes/digitalocean/src/probe.js';
+import { runOciProbe } from '../probes/oci/src/probe.js';
+import { runAwsProbe } from '../probes/aws/src/probe.js';
 
 const OUT_DIR = process.argv[2] ?? './evidence/raw';
 
@@ -13,8 +17,12 @@ type ProbeRun = {
 const PROBES: ProbeRun[] = [
   { name: 'azure', run: runAzureProbe },
   { name: 'ovh', run: runOvhProbe },
+  { name: 'gcp', run: runGcpProbe },
+  { name: 'digitalocean', run: runDigitalOceanProbe },
+  { name: 'oci', run: runOciProbe },
   { name: 'hut8', run: runHut8Probe },
   { name: 'iren', run: runIrenProbe },
+  { name: 'aws', run: runAwsProbe },
 ];
 
 async function main() {

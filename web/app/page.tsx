@@ -23,7 +23,6 @@ export default function Home() {
 
   const rows = snapshot ? buildPhantomRows(records, snapshotPath) : [];
   const liveRows = rows.filter((r) => r.providerClass === 'live');
-  const awaitingRows = rows.filter((r) => r.providerClass === 'awaiting');
 
   const leaderboardRaw = buildLeaderboard(records);
   const maxListed = Math.max(1, ...leaderboardRaw.map((r) => r.listedCount));
@@ -44,14 +43,15 @@ export default function Home() {
   return (
     <>
       <div className="mock-banner">
-        <strong>PARTIAL LIVE DATA.</strong> {LIVE_PROVIDERS.length} of 8 providers
-        probing live against real APIs: Azure (Retail Prices API), OVHcloud (public
-        catalog), Hut 8, Iris Energy. The remaining 4 (AWS, GCP, OCI, DigitalOcean)
-        require authenticated service accounts and are labeled <em>AWAITING AUTH</em>{' '}
-        below. &ldquo;Listed&rdquo; means the SKU appears in the provider&rsquo;s
-        public catalog. &ldquo;Launchable&rdquo; verification requires dry-run creates
-        against authed accounts, which begins in Week 1 of the implementation plan.
-        Until then, all live rows show <em>launchable = Unknown</em>.
+        <strong>LIVE CATALOG DATA · 8 of 8 providers.</strong> All probes read
+        unauthenticated public sources: Azure Retail Prices API, OVHcloud public
+        catalog, GCP GPU regions-zones page, DigitalOcean product page, OCI shapes
+        + regions docs, AWS EC2 regional price CSVs, Hut 8, Iris Energy.
+        &ldquo;Listed&rdquo; means the SKU appears in the provider&rsquo;s public
+        catalog for an in-country region. &ldquo;Launchable&rdquo; verification
+        requires dry-run creates against authed accounts (Path B, GitHub Actions
+        OIDC, not yet shipped). Every live row shows <em>launchable = Unknown</em>{' '}
+        until then.
       </div>
 
       <nav className="topnav">
@@ -137,25 +137,6 @@ export default function Home() {
                 </td>
               </tr>
             ))}
-            {awaitingRows.length > 0 ? (
-              <tr>
-                <td colSpan={8} style={{ paddingTop: 20, paddingBottom: 8, fontSize: 11, textTransform: 'uppercase', letterSpacing: '0.08em', color: '#888' }}>
-                  Awaiting authenticated probes &mdash; placeholders only, no verdict rendered
-                </td>
-              </tr>
-            ) : null}
-            {awaitingRows.map((row, i) => (
-              <tr key={`await-${i}`} style={{ opacity: 0.6 }}>
-                <td>{row.provider}</td>
-                <td className="region">{row.country}</td>
-                <td className="region">{row.region}</td>
-                <td className="sku">{row.sku}</td>
-                <td className="verdict">—</td>
-                <td className={`verdict ${row.launchClass}`}>{row.launchable}</td>
-                <td className="region">—</td>
-                <td className="evidence" style={{ fontSize: 11 }}>{row.evidence}</td>
-              </tr>
-            ))}
           </tbody>
         </table>
       </section>
@@ -188,17 +169,20 @@ export default function Home() {
           ))}
         </div>
         <p style={{ fontSize: 12, color: '#888', marginTop: 12, fontFamily: 'var(--mono)' }}>
-          Counts reflect unique canonical SKUs appearing in Azure Retail Prices + OVH
-          public catalog for each country. Hut 8 / IREN are catalog pages (badge_scrape
-          probe). Launchable counts remain 0 everywhere until authed probes ship.
+          Counts reflect unique canonical SKUs appearing across all 8 probes
+          (Azure, OVH, GCP, DigitalOcean, OCI, AWS, Hut 8, IREN) for each country.
+          OCI rows use a synthetic <code>oci-catalog</code> region because the
+          public docs confirm the catalog and per-country regions exist but not
+          per-region availability. Launchable counts remain 0 everywhere until
+          authed probes (Path B) ship.
         </p>
       </section>
 
       <footer className="dash-footer">
         <div className="row1">
           Snapshot: {snapshotTimestamp} · {records.length} evidence records · live
-          probes: {LIVE_PROVIDERS.join(', ')} · awaiting auth: aws, gcp, oci,
-          digitalocean
+          probes: {LIVE_PROVIDERS.join(', ')} · authed probes (Path B): not yet
+          shipped
         </div>
         <div>
           MIT licensed · Source:{' '}
