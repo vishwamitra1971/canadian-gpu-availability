@@ -6,6 +6,7 @@ import { runGcpProbe } from '../probes/gcp/src/probe.js';
 import { runDigitalOceanProbe } from '../probes/digitalocean/src/probe.js';
 import { runDigitalOceanAuthedProbe } from '../probes/digitalocean/src/probe-authed.js';
 import { runOciProbe } from '../probes/oci/src/probe.js';
+import { runOciAuthedProbe } from '../probes/oci/src/probe-authed.js';
 import { runAwsProbe } from '../probes/aws/src/probe.js';
 
 const OUT_DIR = process.argv[2] ?? './evidence/raw';
@@ -22,6 +23,7 @@ const PROBES: ProbeRun[] = [
   { name: 'digitalocean', run: runDigitalOceanProbe },
   { name: 'digitalocean-authed', run: runDigitalOceanAuthedProbe },
   { name: 'oci', run: runOciProbe },
+  { name: 'oci-authed', run: runOciAuthedProbe },
   { name: 'hut8', run: runHut8Probe },
   { name: 'iren', run: runIrenProbe },
   { name: 'aws', run: runAwsProbe },

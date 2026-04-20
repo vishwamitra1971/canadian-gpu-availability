@@ -8,7 +8,10 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@cgpua/shared": "workspace:*"
+    "@cgpua/shared": "workspace:*",
+    "oci-common": "^2.129.0",
+    "oci-core": "^2.129.0",
+    "oci-identity": "^2.129.0"
   },
   "devDependencies": {
     "typescript": "^5.7.2"
