@@ -121,14 +121,29 @@ function providerLabel(p: string): string {
   return p;
 }
 
+// Prefer the most informative record when probes overlap on (provider, region, sku).
+// launchable=true wins over any no/unknown. phantom/quota_blocked (definitive "no")
+// wins over unknown. Lower = better.
+function recordRank(r: EvidenceObject): number {
+  if (r.launchable) return 0;
+  if (r.verdict === 'phantom') return 1;
+  if (r.verdict === 'quota_blocked') return 2;
+  if (r.verdict === 'inference_only') return 3;
+  return 4;
+}
+
 export function buildPhantomRows(records: EvidenceObject[], snapshotPath: string): PhantomRow[] {
-  const seen = new Set<string>();
-  const rows: PhantomRow[] = [];
+  const best = new Map<string, EvidenceObject>();
   for (const r of records) {
-    if (!r.listed) continue;
+    if (!r.listed && !r.launchable && r.verdict !== 'phantom') continue;
     const key = `${r.provider}|${r.region}|${r.sku}`;
-    if (seen.has(key)) continue;
-    seen.add(key);
+    const existing = best.get(key);
+    if (!existing || recordRank(r) < recordRank(existing)) {
+      best.set(key, r);
+    }
+  }
+  const rows: PhantomRow[] = [];
+  for (const r of best.values()) {
     const v = verdictLabel(r);
     rows.push({
       provider: providerLabel(r.provider),
@@ -137,7 +152,7 @@ export function buildPhantomRows(records: EvidenceObject[], snapshotPath: string
       country: r.country,
       sku: r.sku,
       sku_raw: r.sku_raw,
-      listed: 'Yes',
+      listed: r.listed ? 'Yes' : 'No',
       launchable: v.label,
       launchClass: v.cls,
       lastProbed: r.timestamp.slice(0, 16).replace('T', ' ') + 'Z',

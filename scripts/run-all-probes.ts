@@ -4,6 +4,7 @@ import { runHut8Probe } from '../probes/hut8/src/probe.js';
 import { runIrenProbe } from '../probes/iren/src/probe.js';
 import { runGcpProbe } from '../probes/gcp/src/probe.js';
 import { runDigitalOceanProbe } from '../probes/digitalocean/src/probe.js';
+import { runDigitalOceanAuthedProbe } from '../probes/digitalocean/src/probe-authed.js';
 import { runOciProbe } from '../probes/oci/src/probe.js';
 import { runAwsProbe } from '../probes/aws/src/probe.js';
 
@@ -19,6 +20,7 @@ const PROBES: ProbeRun[] = [
   { name: 'ovh', run: runOvhProbe },
   { name: 'gcp', run: runGcpProbe },
   { name: 'digitalocean', run: runDigitalOceanProbe },
+  { name: 'digitalocean-authed', run: runDigitalOceanAuthedProbe },
   { name: 'oci', run: runOciProbe },
   { name: 'hut8', run: runHut8Probe },
   { name: 'iren', run: runIrenProbe },

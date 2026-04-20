@@ -1,0 +1,59 @@
+name: Run probes and commit evidence
+
+on:
+  schedule:
+    # Every hour at :17 past.
+    - cron: '17 * * * *'
+  workflow_dispatch: {}
+
+# Only one probe run at a time; skip queued runs if we fall behind.
+concurrency:
+  group: probe
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      # Picks up the version from package.json "packageManager" field.
+      - uses: pnpm/action-setup@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: pnpm
+
+      - name: Install deps
+        run: pnpm install --frozen-lockfile
+
+      - name: Run all probes
+        env:
+          DO_API_TOKEN: ${{ secrets.DO_API_TOKEN }}
+        run: pnpm probe:all
+
+      - name: Commit evidence
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add evidence/raw
+          if git diff --staged --quiet; then
+            echo "No evidence changes to commit."
+            exit 0
+          fi
+          git commit -m "chore(evidence): hourly probe run ${{ github.run_id }}"
+          # Rebase on top of anything that landed while we were probing.
+          for i in 1 2 3; do
+            git pull --rebase origin main && git push origin HEAD:main && exit 0
+            echo "push attempt $i failed, retrying..."
+            sleep 5
+          done
+          echo "could not push evidence after 3 attempts" >&2
+          exit 1
