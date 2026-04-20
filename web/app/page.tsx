@@ -1,139 +1,57 @@
-const SNAPSHOT_TIMESTAMP = '2026-04-20T14:30:00Z';
-const MOCK_COMMIT_SHA = 'mock-data';
+import {
+  loadLatestSnapshot,
+  buildPhantomRows,
+  buildLeaderboard,
+  LIVE_PROVIDERS,
+} from '../lib/evidence';
 
-type PhantomRow = {
-  provider: string;
-  region: string;
-  sku: string;
-  listed: 'Yes' | 'No';
-  launchable: string;
-  launchClass: 'v-launch-yes' | 'v-launch-no' | 'v-launch-partial';
-  evidence: string;
+const COUNTRY_NAMES: Record<string, string> = {
+  US: 'United States',
+  JP: 'Japan',
+  DE: 'Germany',
+  UK: 'United Kingdom',
+  FR: 'France',
+  CA: 'Canada',
+  IT: 'Italy',
 };
-
-const PHANTOM_ROWS: PhantomRow[] = [
-  {
-    provider: 'GCP',
-    region: 'northamerica-northeast1 (Montreal)',
-    sku: 'a3-highgpu-8g (H100)',
-    listed: 'Yes',
-    launchable: 'No — phantom',
-    launchClass: 'v-launch-no',
-    evidence: 'evidence/mock/gcp-mtl-a3.json',
-  },
-  {
-    provider: 'GCP',
-    region: 'northamerica-northeast2 (Toronto)',
-    sku: 'a3-edgegpu-8g (H100, inference)',
-    listed: 'Yes',
-    launchable: 'Inference only',
-    launchClass: 'v-launch-partial',
-    evidence: 'evidence/mock/gcp-tor-a3-edge.json',
-  },
-  {
-    provider: 'AWS',
-    region: 'ca-central-1 (Montreal)',
-    sku: 'p5.48xlarge (H100)',
-    listed: 'Yes',
-    launchable: 'No — default quota 0',
-    launchClass: 'v-launch-no',
-    evidence: 'evidence/mock/aws-cac1-p5.json',
-  },
-  {
-    provider: 'AWS',
-    region: 'ca-west-1 (Calgary)',
-    sku: 'p5.48xlarge (H100)',
-    listed: 'Yes',
-    launchable: 'No — default quota 0',
-    launchClass: 'v-launch-no',
-    evidence: 'evidence/mock/aws-caw1-p5.json',
-  },
-  {
-    provider: 'Azure',
-    region: 'canadacentral',
-    sku: 'Standard_ND96isr_H100_v5',
-    listed: 'Yes',
-    launchable: 'No — NotAvailableForSubscription',
-    launchClass: 'v-launch-no',
-    evidence: 'evidence/mock/az-cc-nd-h100.json',
-  },
-  {
-    provider: 'OCI',
-    region: 'ca-toronto-1',
-    sku: 'BM.GPU.H100.8',
-    listed: 'Yes',
-    launchable: 'Yes — capacity report OK',
-    launchClass: 'v-launch-yes',
-    evidence: 'evidence/mock/oci-yyz-h100.json',
-  },
-  {
-    provider: 'OVHcloud',
-    region: 'BHS (Beauharnois, QC)',
-    sku: 't2-h100-188 (H100)',
-    listed: 'Yes',
-    launchable: 'No — catalog lists; stock badge OUT',
-    launchClass: 'v-launch-no',
-    evidence: 'evidence/mock/ovh-bhs-h100.json',
-  },
-  {
-    provider: 'DigitalOcean',
-    region: 'TOR1 (Toronto)',
-    sku: 'gpu-h100x1-80gb',
-    listed: 'Yes',
-    launchable: 'Catalog-only — see methodology',
-    launchClass: 'v-launch-partial',
-    evidence: 'evidence/mock/do-tor1-h100.json',
-  },
-  {
-    provider: 'Hut 8',
-    region: 'Alberta',
-    sku: 'H100 (Hut8 Compute)',
-    listed: 'Yes',
-    launchable: 'Catalog-only + quarterly attestation',
-    launchClass: 'v-launch-partial',
-    evidence: 'evidence/mock/hut8-ab-h100.json',
-  },
-  {
-    provider: 'Iris Energy',
-    region: 'BC (Prince George)',
-    sku: 'H100 / H200 AI Cloud',
-    listed: 'Yes',
-    launchable: 'Catalog-only + quarterly attestation',
-    launchClass: 'v-launch-partial',
-    evidence: 'evidence/mock/iren-bc-h100.json',
-  },
-];
-
-type LeaderRow = {
-  rank: number;
-  country: string;
-  bar: number;
-  value: number;
-  highlight?: boolean;
-};
-
-const LEADERBOARD: LeaderRow[] = [
-  { rank: 1, country: 'United States', bar: 100, value: 847 },
-  { rank: 2, country: 'Japan', bar: 41, value: 72 },
-  { rank: 3, country: 'Germany', bar: 33, value: 58 },
-  { rank: 4, country: 'United Kingdom', bar: 27, value: 44 },
-  { rank: 5, country: 'France', bar: 20, value: 31 },
-  { rank: 6, country: 'Canada', bar: 3, value: 3, highlight: true },
-  { rank: 7, country: 'Italy', bar: 2, value: 2 },
-];
 
 export default function Home() {
+  const snapshot = loadLatestSnapshot();
+  const records = snapshot?.records ?? [];
+  const snapshotTimestamp = snapshot?.snapshotTimestamp ?? 'no snapshot yet';
+  const snapshotPath = snapshot?.snapshotPath ?? '—';
+
+  const rows = snapshot ? buildPhantomRows(records, snapshotPath) : [];
+  const liveRows = rows.filter((r) => r.providerClass === 'live');
+  const awaitingRows = rows.filter((r) => r.providerClass === 'awaiting');
+
+  const leaderboardRaw = buildLeaderboard(records);
+  const maxListed = Math.max(1, ...leaderboardRaw.map((r) => r.listedCount));
+  const leaderboard = leaderboardRaw
+    .map((r) => ({
+      ...r,
+      name: COUNTRY_NAMES[r.country] ?? r.country,
+      bar: Math.round((r.listedCount / maxListed) * 100),
+      highlight: r.country === 'CA',
+    }))
+    .sort((a, b) => b.listedCount - a.listedCount)
+    .map((r, i) => ({ ...r, rank: i + 1 }));
+
+  const canadaListed = leaderboardRaw.find((r) => r.country === 'CA')?.listedCount ?? 0;
+  const canadaLaunchable = leaderboardRaw.find((r) => r.country === 'CA')?.launchableCount ?? 0;
+  const usListed = leaderboardRaw.find((r) => r.country === 'US')?.listedCount ?? 0;
+
   return (
     <>
       <div className="mock-banner">
-        <strong>MOCK DATA — no real probes have run yet.</strong> This is a
-        pre-launch preview of the dashboard shape. The numbers, verdicts, and
-        evidence links below are placeholders for design iteration only. Real
-        probe wiring begins at Week 1 of the implementation plan (see{' '}
-        <a href="https://github.com/vishwamitra1971/canadian-gpu-availability/blob/main/docs/design.md">
-          docs/design.md
-        </a>
-        ).
+        <strong>PARTIAL LIVE DATA.</strong> {LIVE_PROVIDERS.length} of 8 providers
+        probing live against real APIs: Azure (Retail Prices API), OVHcloud (public
+        catalog), Hut 8, Iris Energy. The remaining 4 (AWS, GCP, OCI, DigitalOcean)
+        require authenticated service accounts and are labeled <em>AWAITING AUTH</em>{' '}
+        below. &ldquo;Listed&rdquo; means the SKU appears in the provider&rsquo;s
+        public catalog. &ldquo;Launchable&rdquo; verification requires dry-run creates
+        against authed accounts, which begins in Week 1 of the implementation plan.
+        Until then, all live rows show <em>launchable = Unknown</em>.
       </div>
 
       <nav className="topnav">
@@ -142,18 +60,9 @@ export default function Home() {
           <span className="sub">an independent public tracker</span>
         </div>
         <ul>
-          <li>
-            <a href="#gap">Dashboard</a>
-          </li>
-          <li>
-            <a href="#">Reports</a>
-          </li>
-          <li>
-            <a href="#">Methodology</a>
-          </li>
-          <li>
-            <a href="#">API</a>
-          </li>
+          <li><a href="#gap">Dashboard</a></li>
+          <li><a href="#phantom">Phantom Wall</a></li>
+          <li><a href="#leaderboard">G7</a></li>
           <li>
             <a href="https://github.com/vishwamitra1971/canadian-gpu-availability">
               Source
@@ -166,65 +75,38 @@ export default function Home() {
         <h2 className="eyebrow">Sovereignty Gap Index</h2>
         <div className="gap-index">
           <p className="headline">
-            Canada has <strong className="ca">3</strong> current-generation
-            training GPU SKUs actually launchable.
+            Canada has <strong className="ca">{canadaListed}</strong> current-generation
+            training GPU SKUs listed by unauthed probes.
             <br />
-            The United States has <strong>847</strong>.
+            <strong>{canadaLaunchable}</strong> verified launchable. (Verification gated
+            on authed accounts.)
           </p>
           <p className="context">
-            &ldquo;Current-generation training&rdquo; = H100, H200, B100, B200,
-            GB200, MI300X, or MI325X, available on-demand in at least one
-            in-country region. Excludes inference-only deployments and SKUs
-            listed but not launchable due to quota or capacity constraints.
-            Verified against provider APIs at the timestamp below.
+            &ldquo;Current-generation training&rdquo; = H100, H200, B100, B200, GB200,
+            MI300X, or MI325X, appearing in the provider&rsquo;s public catalog for an
+            in-country region. The United States currently shows{' '}
+            <strong>{usListed}</strong> listed SKUs across the same unauthed probes.
+            The real gap &mdash; what is actually launchable on a fresh account &mdash;
+            accrues once authenticated probes come online. Evidence JSON is committed
+            under <code>evidence/raw/</code> in this repo.
           </p>
           <div className="cite">
-            <span className="label">Cite as</span>
-            Canadian GPU Availability, {SNAPSHOT_TIMESTAMP}, commit{' '}
-            <strong>{MOCK_COMMIT_SHA}</strong>
+            <span className="label">Snapshot</span>
+            {snapshotTimestamp} · path <strong>{snapshotPath}</strong> ·{' '}
+            {records.length} records
           </div>
         </div>
       </section>
 
-      <section>
+      <section id="phantom">
         <h2 className="eyebrow">
           Phantom Inventory Wall &mdash; listed vs. actually launchable
         </h2>
-        <div className="filter-bar">
-          <label>
-            Country:{' '}
-            <select defaultValue="Canada">
-              <option>Canada</option>
-              <option>All G7</option>
-            </select>
-          </label>
-          <label>
-            Provider:{' '}
-            <select defaultValue="All">
-              <option>All</option>
-              <option>AWS</option>
-              <option>Azure</option>
-              <option>GCP</option>
-              <option>OVH</option>
-              <option>DigitalOcean</option>
-              <option>OCI</option>
-              <option>Hut 8</option>
-              <option>Iris Energy</option>
-            </select>
-          </label>
-          <label>
-            SKU class:{' '}
-            <select defaultValue="Training (current-gen)">
-              <option>Training (current-gen)</option>
-              <option>Inference</option>
-              <option>All</option>
-            </select>
-          </label>
-        </div>
         <table className="phantom">
           <thead>
             <tr>
               <th>Provider</th>
+              <th>Country</th>
               <th>Region</th>
               <th>SKU</th>
               <th>Listed?</th>
@@ -234,115 +116,89 @@ export default function Home() {
             </tr>
           </thead>
           <tbody>
-            {PHANTOM_ROWS.map((row) => (
-              <tr key={`${row.provider}-${row.region}-${row.sku}`}>
+            {liveRows.map((row, i) => (
+              <tr key={`live-${i}`}>
                 <td>{row.provider}</td>
+                <td className="region">{row.country}</td>
+                <td className="region">{row.region}</td>
+                <td className="sku">
+                  {row.sku}
+                  {row.sku_raw && row.sku_raw !== row.sku ? (
+                    <div style={{ fontSize: 11, color: '#888' }}>{row.sku_raw}</div>
+                  ) : null}
+                </td>
+                <td className="verdict v-listed-yes">{row.listed}</td>
+                <td className={`verdict ${row.launchClass}`}>{row.launchable}</td>
+                <td className="region">{row.lastProbed}</td>
+                <td className="evidence">
+                  <a href={`https://github.com/vishwamitra1971/canadian-gpu-availability/blob/main/${row.evidence}`}>
+                    {row.evidence}
+                  </a>
+                </td>
+              </tr>
+            ))}
+            {awaitingRows.length > 0 ? (
+              <tr>
+                <td colSpan={8} style={{ paddingTop: 20, paddingBottom: 8, fontSize: 11, textTransform: 'uppercase', letterSpacing: '0.08em', color: '#888' }}>
+                  Awaiting authenticated probes &mdash; placeholders only, no verdict rendered
+                </td>
+              </tr>
+            ) : null}
+            {awaitingRows.map((row, i) => (
+              <tr key={`await-${i}`} style={{ opacity: 0.6 }}>
+                <td>{row.provider}</td>
+                <td className="region">{row.country}</td>
                 <td className="region">{row.region}</td>
                 <td className="sku">{row.sku}</td>
-                <td className="verdict v-listed-yes">{row.listed}</td>
-                <td className={`verdict ${row.launchClass}`}>
-                  {row.launchable}
-                </td>
-                <td className="region">2026-04-20 14:28Z</td>
-                <td className="evidence">
-                  <a href="#">{row.evidence}</a>
-                </td>
+                <td className="verdict">—</td>
+                <td className={`verdict ${row.launchClass}`}>{row.launchable}</td>
+                <td className="region">—</td>
+                <td className="evidence" style={{ fontSize: 11 }}>{row.evidence}</td>
               </tr>
             ))}
           </tbody>
         </table>
       </section>
 
-      <section>
+      <section id="leaderboard">
         <h2 className="eyebrow">
-          G7 Leaderboard &mdash; current-gen training GPU SKUs launchable
-          in-country
+          G7 Leaderboard &mdash; listed current-gen training SKUs (unauthed probes)
         </h2>
         <div className="leaderboard">
           <div className="header row">
             <div></div>
             <div>Country</div>
-            <div>Relative (per 1M pop.)</div>
+            <div>Listed (relative)</div>
             <div>SKUs</div>
           </div>
-          {LEADERBOARD.map((row) => (
+          {leaderboard.map((row) => (
             <div
               key={row.country}
               className={row.highlight ? 'row highlight' : 'row'}
             >
               <div className="rank">{row.rank}</div>
-              <div
-                className={row.highlight ? 'country highlight' : 'country'}
-              >
-                {row.country}
+              <div className={row.highlight ? 'country highlight' : 'country'}>
+                {row.name}
               </div>
               <div className="bar">
                 <span style={{ width: `${row.bar}%` }} />
               </div>
-              <div className="value">{row.value}</div>
+              <div className="value">{row.listedCount}</div>
             </div>
           ))}
         </div>
-      </section>
-
-      <section>
-        <h2 className="eyebrow">
-          Canadian Current-Gen GPU Availability Over Time
-        </h2>
-        <div className="timeline-wrap">
-          <svg viewBox="0 0 900 220" preserveAspectRatio="none">
-            <line x1="0" y1="180" x2="900" y2="180" stroke="#d0d0c8" strokeWidth="1" />
-            <line x1="0" y1="130" x2="900" y2="130" stroke="#f0f0e8" strokeWidth="1" />
-            <line x1="0" y1="80" x2="900" y2="80" stroke="#f0f0e8" strokeWidth="1" />
-            <line x1="0" y1="30" x2="900" y2="30" stroke="#f0f0e8" strokeWidth="1" />
-
-            <text x="4" y="184" fontSize="10" fill="#888" fontFamily="ui-monospace,Menlo,monospace">0</text>
-            <text x="4" y="134" fontSize="10" fill="#888" fontFamily="ui-monospace,Menlo,monospace">1</text>
-            <text x="4" y="84" fontSize="10" fill="#888" fontFamily="ui-monospace,Menlo,monospace">2</text>
-            <text x="4" y="34" fontSize="10" fill="#888" fontFamily="ui-monospace,Menlo,monospace">3</text>
-
-            <polyline
-              points="40,180 180,180 180,130 340,130 520,130 520,80 680,80 680,30 880,30"
-              fill="none"
-              stroke="#b03020"
-              strokeWidth="2"
-            />
-
-            <line x1="180" y1="10" x2="180" y2="200" stroke="#666" strokeWidth="1" strokeDasharray="3,3" />
-            <text x="184" y="20" fontSize="10" fill="#444">2024-04 · AI Compute Access Fund announced</text>
-
-            <line x1="340" y1="10" x2="340" y2="200" stroke="#666" strokeWidth="1" strokeDasharray="3,3" />
-            <text x="344" y="20" fontSize="10" fill="#444">2025-06 · DigitalOcean H100 Toronto</text>
-
-            <line x1="520" y1="10" x2="520" y2="200" stroke="#666" strokeWidth="1" strokeDasharray="3,3" />
-            <text x="524" y="20" fontSize="10" fill="#444">2026-04 · OCI H100 Toronto + Montreal</text>
-
-            <text x="40" y="210" fontSize="10" fill="#888" fontFamily="ui-monospace,Menlo,monospace">2023</text>
-            <text x="260" y="210" fontSize="10" fill="#888" fontFamily="ui-monospace,Menlo,monospace">2024</text>
-            <text x="480" y="210" fontSize="10" fill="#888" fontFamily="ui-monospace,Menlo,monospace">2025</text>
-            <text x="700" y="210" fontSize="10" fill="#888" fontFamily="ui-monospace,Menlo,monospace">2026</text>
-          </svg>
-        </div>
-        <div className="timeline-legend">
-          <span>
-            <span
-              className="dot"
-              style={{ background: 'var(--ca)' }}
-            />
-            Canada SKU count (current-gen training)
-          </span>
-          <span>
-            <span className="dot" style={{ background: 'var(--muted)' }} />
-            Policy / provider events
-          </span>
-        </div>
+        <p style={{ fontSize: 12, color: '#888', marginTop: 12, fontFamily: 'var(--mono)' }}>
+          Counts reflect unique canonical SKUs appearing in Azure Retail Prices + OVH
+          public catalog for each country. Hut 8 / IREN are catalog pages (badge_scrape
+          probe). Launchable counts remain 0 everywhere until authed probes ship.
+        </p>
       </section>
 
       <footer className="dash-footer">
         <div className="row1">
-          Snapshot (mock): {SNAPSHOT_TIMESTAMP} · commit{' '}
-          <strong>{MOCK_COMMIT_SHA}</strong> · 0 real probes across 7 countries
-          · 8 providers in V1 scope
+          Snapshot: {snapshotTimestamp} · {records.length} evidence records · live
+          probes: {LIVE_PROVIDERS.join(', ')} · awaiting auth: aws, gcp, oci,
+          digitalocean
         </div>
         <div>
           MIT licensed · Source:{' '}

@@ -16,9 +16,11 @@
     "test": "turbo run test",
     "typecheck": "turbo run typecheck",
     "probe": "turbo run probe",
+    "probe:all": "tsx scripts/run-all-probes.ts",
     "rebuild": "turbo run rebuild"
   },
   "devDependencies": {
+    "tsx": "^4.21.0",
     "turbo": "^2.3.3",
     "typescript": "^5.7.2"
   }
