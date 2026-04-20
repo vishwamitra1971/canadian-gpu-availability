@@ -1,0 +1,16 @@
+{
+  "name": "@cgpua/probe-azure",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "probe": "echo 'probe-azure not yet implemented'",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@cgpua/shared": "workspace:*"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.2"
+  }
+}

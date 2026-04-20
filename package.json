@@ -1,0 +1,25 @@
+{
+  "name": "canadian-gpu-availability",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Evidence-backed sovereignty dashboard: listed vs launchable current-generation GPUs across G7 cloud regions.",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20",
+    "pnpm": ">=9"
+  },
+  "packageManager": "pnpm@10.33.0",
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "lint": "turbo run lint",
+    "test": "turbo run test",
+    "typecheck": "turbo run typecheck",
+    "probe": "turbo run probe",
+    "rebuild": "turbo run rebuild"
+  },
+  "devDependencies": {
+    "turbo": "^2.3.3",
+    "typescript": "^5.7.2"
+  }
+}

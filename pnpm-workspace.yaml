@@ -1,0 +1,5 @@
+packages:
+  - "probes/*"
+  - "verdict"
+  - "web"
+  - "reports"

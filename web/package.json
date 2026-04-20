@@ -1,0 +1,17 @@
+{
+  "name": "@cgpua/web",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "echo 'next dev — web app not yet scaffolded'",
+    "build": "echo 'next build — web app not yet scaffolded'",
+    "typecheck": "echo 'typecheck pending web scaffold'"
+  },
+  "dependencies": {
+    "@cgpua/shared": "workspace:*"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.2"
+  }
+}

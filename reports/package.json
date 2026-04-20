@@ -1,0 +1,16 @@
+{
+  "name": "@cgpua/reports",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "echo 'reports generator — not yet scaffolded'",
+    "typecheck": "echo 'typecheck pending reports scaffold'"
+  },
+  "dependencies": {
+    "@cgpua/shared": "workspace:*"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.2"
+  }
+}
