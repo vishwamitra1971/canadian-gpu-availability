@@ -2,16 +2,23 @@
   "name": "@cgpua/web",
   "version": "0.0.0",
   "private": true,
-  "type": "module",
   "scripts": {
-    "dev": "echo 'next dev — web app not yet scaffolded'",
-    "build": "echo 'next build — web app not yet scaffolded'",
-    "typecheck": "echo 'typecheck pending web scaffold'"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@cgpua/shared": "workspace:*"
+    "@cgpua/shared": "workspace:*",
+    "next": "^15.1.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
   },
   "devDependencies": {
+    "@types/node": "^22.10.2",
+    "@types/react": "^19.0.2",
+    "@types/react-dom": "^19.0.2",
     "typescript": "^5.7.2"
   }
 }
