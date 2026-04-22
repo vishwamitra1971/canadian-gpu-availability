@@ -1,3 +1,8 @@
+// Force static regeneration on every deploy — evidence/raw/ changes but our
+// page.tsx rarely does, so without this Vercel can serve a cached build.
+export const dynamic = 'force-static';
+export const revalidate = 0;
+
 import {
   loadLatestSnapshot,
   buildPhantomRows,
