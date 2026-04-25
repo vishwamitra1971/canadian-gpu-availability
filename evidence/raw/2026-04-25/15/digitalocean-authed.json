@@ -1,6 +1,6 @@
 [
   {
-    "timestamp": "2026-04-25T15:01:51.363Z",
+    "timestamp": "2026-04-25T15:57:37.571Z",
     "provider": "digitalocean",
     "country": "CA",
     "region": "tor1",
@@ -14,12 +14,12 @@
     "request_hash": "0f69739d4cd2d932738bc6c5d0bafcbbc17ec6845a15b8d121ba38aaa2098738",
     "response_hash": "beee069dc817d0a6395a0e2ea0aae5b761809980186a39d2831136a8dfa503ca",
     "response_excerpt": "DO /v2/sizes (authed): H100-SXM-80GB has no size with region=tor1 in its regions[] array.",
-    "probe_duration_ms": 583,
+    "probe_duration_ms": 374,
     "probe_version": "0.1.0",
     "taxonomy_version": "taxonomy_v1"
   },
   {
-    "timestamp": "2026-04-25T15:01:51.363Z",
+    "timestamp": "2026-04-25T15:57:37.571Z",
     "provider": "digitalocean",
     "country": "CA",
     "region": "tor1",
@@ -33,12 +33,12 @@
     "request_hash": "0f69739d4cd2d932738bc6c5d0bafcbbc17ec6845a15b8d121ba38aaa2098738",
     "response_hash": "beee069dc817d0a6395a0e2ea0aae5b761809980186a39d2831136a8dfa503ca",
     "response_excerpt": "DO /v2/sizes (authed): H200-SXM-141GB has no size with region=tor1 in its regions[] array.",
-    "probe_duration_ms": 583,
+    "probe_duration_ms": 374,
     "probe_version": "0.1.0",
     "taxonomy_version": "taxonomy_v1"
   },
   {
-    "timestamp": "2026-04-25T15:01:51.363Z",
+    "timestamp": "2026-04-25T15:57:37.571Z",
     "provider": "digitalocean",
     "country": "CA",
     "region": "tor1",
@@ -52,12 +52,12 @@
     "request_hash": "0f69739d4cd2d932738bc6c5d0bafcbbc17ec6845a15b8d121ba38aaa2098738",
     "response_hash": "beee069dc817d0a6395a0e2ea0aae5b761809980186a39d2831136a8dfa503ca",
     "response_excerpt": "DO /v2/sizes (authed): B200-SXM has no size with region=tor1 in its regions[] array.",
-    "probe_duration_ms": 583,
+    "probe_duration_ms": 374,
     "probe_version": "0.1.0",
     "taxonomy_version": "taxonomy_v1"
   },
   {
-    "timestamp": "2026-04-25T15:01:51.363Z",
+    "timestamp": "2026-04-25T15:57:37.571Z",
     "provider": "digitalocean",
     "country": "CA",
     "region": "tor1",
@@ -71,12 +71,12 @@
     "request_hash": "0f69739d4cd2d932738bc6c5d0bafcbbc17ec6845a15b8d121ba38aaa2098738",
     "response_hash": "beee069dc817d0a6395a0e2ea0aae5b761809980186a39d2831136a8dfa503ca",
     "response_excerpt": "DO /v2/sizes (authed): MI300X-OAM-192GB has no size with region=tor1 in its regions[] array.",
-    "probe_duration_ms": 583,
+    "probe_duration_ms": 374,
     "probe_version": "0.1.0",
     "taxonomy_version": "taxonomy_v1"
   },
   {
-    "timestamp": "2026-04-25T15:01:51.363Z",
+    "timestamp": "2026-04-25T15:57:37.571Z",
     "provider": "digitalocean",
     "country": "CA",
     "region": "tor1",
@@ -90,12 +90,12 @@
     "request_hash": "0f69739d4cd2d932738bc6c5d0bafcbbc17ec6845a15b8d121ba38aaa2098738",
     "response_hash": "beee069dc817d0a6395a0e2ea0aae5b761809980186a39d2831136a8dfa503ca",
     "response_excerpt": "DO /v2/sizes (authed): MI325X-OAM has no size with region=tor1 in its regions[] array.",
-    "probe_duration_ms": 583,
+    "probe_duration_ms": 374,
     "probe_version": "0.1.0",
     "taxonomy_version": "taxonomy_v1"
   },
   {
-    "timestamp": "2026-04-25T15:01:51.363Z",
+    "timestamp": "2026-04-25T15:57:37.571Z",
     "provider": "digitalocean",
     "country": "US",
     "region": "nyc1",
@@ -109,12 +109,12 @@
     "request_hash": "0f69739d4cd2d932738bc6c5d0bafcbbc17ec6845a15b8d121ba38aaa2098738",
     "response_hash": "beee069dc817d0a6395a0e2ea0aae5b761809980186a39d2831136a8dfa503ca",
     "response_excerpt": "DO /v2/sizes (authed): H100-SXM-80GB has no size with region=nyc1 in its regions[] array.",
-    "probe_duration_ms": 583,
+    "probe_duration_ms": 374,
     "probe_version": "0.1.0",
     "taxonomy_version": "taxonomy_v1"
   },
   {
-    "timestamp": "2026-04-25T15:01:51.363Z",
+    "timestamp": "2026-04-25T15:57:37.571Z",
     "provider": "digitalocean",
     "country": "US",
     "region": "nyc1",
@@ -128,12 +128,12 @@
     "request_hash": "0f69739d4cd2d932738bc6c5d0bafcbbc17ec6845a15b8d121ba38aaa2098738",
     "response_hash": "beee069dc817d0a6395a0e2ea0aae5b761809980186a39d2831136a8dfa503ca",
     "response_excerpt": "DO /v2/sizes (authed): H200-SXM-141GB has no size with region=nyc1 in its regions[] array.",
-    "probe_duration_ms": 583,
+    "probe_duration_ms": 374,
     "probe_version": "0.1.0",
     "taxonomy_version": "taxonomy_v1"
   },
   {
-    "timestamp": "2026-04-25T15:01:51.363Z",
+    "timestamp": "2026-04-25T15:57:37.571Z",
     "provider": "digitalocean",
     "country": "US",
     "region": "nyc1",
@@ -147,12 +147,12 @@
     "request_hash": "0f69739d4cd2d932738bc6c5d0bafcbbc17ec6845a15b8d121ba38aaa2098738",
     "response_hash": "beee069dc817d0a6395a0e2ea0aae5b761809980186a39d2831136a8dfa503ca",
     "response_excerpt": "DO /v2/sizes (authed): B200-SXM has no size with region=nyc1 in its regions[] array.",
-    "probe_duration_ms": 583,
+    "probe_duration_ms": 374,
     "probe_version": "0.1.0",
     "taxonomy_version": "taxonomy_v1"
   },
   {
-    "timestamp": "2026-04-25T15:01:51.363Z",
+    "timestamp": "2026-04-25T15:57:37.571Z",
     "provider": "digitalocean",
     "country": "US",
     "region": "nyc1",
@@ -166,12 +166,12 @@
     "request_hash": "0f69739d4cd2d932738bc6c5d0bafcbbc17ec6845a15b8d121ba38aaa2098738",
     "response_hash": "beee069dc817d0a6395a0e2ea0aae5b761809980186a39d2831136a8dfa503ca",
     "response_excerpt": "DO /v2/sizes (authed): MI300X-OAM-192GB has no size with region=nyc1 in its regions[] array.",
-    "probe_duration_ms": 583,
+    "probe_duration_ms": 374,
     "probe_version": "0.1.0",
     "taxonomy_version": "taxonomy_v1"
   },
   {
-    "timestamp": "2026-04-25T15:01:51.363Z",
+    "timestamp": "2026-04-25T15:57:37.571Z",
     "provider": "digitalocean",
     "country": "US",
     "region": "nyc1",
@@ -185,12 +185,12 @@
     "request_hash": "0f69739d4cd2d932738bc6c5d0bafcbbc17ec6845a15b8d121ba38aaa2098738",
     "response_hash": "beee069dc817d0a6395a0e2ea0aae5b761809980186a39d2831136a8dfa503ca",
     "response_excerpt": "DO /v2/sizes (authed): MI325X-OAM has no size with region=nyc1 in its regions[] array.",
-    "probe_duration_ms": 583,
+    "probe_duration_ms": 374,
     "probe_version": "0.1.0",
     "taxonomy_version": "taxonomy_v1"
   },
   {
-    "timestamp": "2026-04-25T15:01:51.363Z",
+    "timestamp": "2026-04-25T15:57:37.571Z",
     "provider": "digitalocean",
     "country": "US",
     "region": "nyc2",
@@ -204,12 +204,12 @@
     "request_hash": "0f69739d4cd2d932738bc6c5d0bafcbbc17ec6845a15b8d121ba38aaa2098738",
     "response_hash": "beee069dc817d0a6395a0e2ea0aae5b761809980186a39d2831136a8dfa503ca",
     "response_excerpt": "DO /v2/sizes (authed): H100-SXM-80GB has no size with region=nyc2 in its regions[] array.",
-    "probe_duration_ms": 583,
+    "probe_duration_ms": 374,
     "probe_version": "0.1.0",
     "taxonomy_version": "taxonomy_v1"
   },
   {
-    "timestamp": "2026-04-25T15:01:51.363Z",
+    "timestamp": "2026-04-25T15:57:37.571Z",
     "provider": "digitalocean",
     "country": "US",
     "region": "nyc2",
@@ -223,12 +223,12 @@
     "request_hash": "0f69739d4cd2d932738bc6c5d0bafcbbc17ec6845a15b8d121ba38aaa2098738",
     "response_hash": "beee069dc817d0a6395a0e2ea0aae5b761809980186a39d2831136a8dfa503ca",
     "response_excerpt": "DO /v2/sizes (authed): H200-SXM-141GB has no size with region=nyc2 in its regions[] array.",
-    "probe_duration_ms": 583,
+    "probe_duration_ms": 374,
     "probe_version": "0.1.0",
     "taxonomy_version": "taxonomy_v1"
   },
   {
-    "timestamp": "2026-04-25T15:01:51.363Z",
+    "timestamp": "2026-04-25T15:57:37.571Z",
     "provider": "digitalocean",
     "country": "US",
     "region": "nyc2",
@@ -242,12 +242,12 @@
     "request_hash": "0f69739d4cd2d932738bc6c5d0bafcbbc17ec6845a15b8d121ba38aaa2098738",
     "response_hash": "beee069dc817d0a6395a0e2ea0aae5b761809980186a39d2831136a8dfa503ca",
     "response_excerpt": "DO /v2/sizes (authed): B200-SXM has no size with region=nyc2 in its regions[] array.",
-    "probe_duration_ms": 583,
+    "probe_duration_ms": 374,
     "probe_version": "0.1.0",
     "taxonomy_version": "taxonomy_v1"
   },
   {
-    "timestamp": "2026-04-25T15:01:51.363Z",
+    "timestamp": "2026-04-25T15:57:37.571Z",
     "provider": "digitalocean",
     "country": "US",
     "region": "nyc2",
@@ -261,12 +261,12 @@
     "request_hash": "0f69739d4cd2d932738bc6c5d0bafcbbc17ec6845a15b8d121ba38aaa2098738",
     "response_hash": "beee069dc817d0a6395a0e2ea0aae5b761809980186a39d2831136a8dfa503ca",
     "response_excerpt": "DO /v2/sizes (authed): MI300X-OAM-192GB has no size with region=nyc2 in its regions[] array.",
-    "probe_duration_ms": 583,
+    "probe_duration_ms": 374,
     "probe_version": "0.1.0",
     "taxonomy_version": "taxonomy_v1"
   },
   {
-    "timestamp": "2026-04-25T15:01:51.363Z",
+    "timestamp": "2026-04-25T15:57:37.571Z",
     "provider": "digitalocean",
     "country": "US",
     "region": "nyc2",
@@ -280,12 +280,12 @@
     "request_hash": "0f69739d4cd2d932738bc6c5d0bafcbbc17ec6845a15b8d121ba38aaa2098738",
     "response_hash": "beee069dc817d0a6395a0e2ea0aae5b761809980186a39d2831136a8dfa503ca",
     "response_excerpt": "DO /v2/sizes (authed): MI325X-OAM has no size with region=nyc2 in its regions[] array.",
-    "probe_duration_ms": 583,
+    "probe_duration_ms": 374,
     "probe_version": "0.1.0",
     "taxonomy_version": "taxonomy_v1"
   },
   {
-    "timestamp": "2026-04-25T15:01:51.363Z",
+    "timestamp": "2026-04-25T15:57:37.571Z",
     "provider": "digitalocean",
     "country": "US",
     "region": "nyc3",
@@ -299,12 +299,12 @@
     "request_hash": "0f69739d4cd2d932738bc6c5d0bafcbbc17ec6845a15b8d121ba38aaa2098738",
     "response_hash": "beee069dc817d0a6395a0e2ea0aae5b761809980186a39d2831136a8dfa503ca",
     "response_excerpt": "DO /v2/sizes (authed): H100-SXM-80GB has no size with region=nyc3 in its regions[] array.",
-    "probe_duration_ms": 583,
+    "probe_duration_ms": 374,
     "probe_version": "0.1.0",
     "taxonomy_version": "taxonomy_v1"
   },
   {
-    "timestamp": "2026-04-25T15:01:51.363Z",
+    "timestamp": "2026-04-25T15:57:37.571Z",
     "provider": "digitalocean",
     "country": "US",
     "region": "nyc3",
@@ -318,12 +318,12 @@
     "request_hash": "0f69739d4cd2d932738bc6c5d0bafcbbc17ec6845a15b8d121ba38aaa2098738",
     "response_hash": "beee069dc817d0a6395a0e2ea0aae5b761809980186a39d2831136a8dfa503ca",
     "response_excerpt": "DO /v2/sizes (authed): H200-SXM-141GB has no size with region=nyc3 in its regions[] array.",
-    "probe_duration_ms": 583,
+    "probe_duration_ms": 374,
     "probe_version": "0.1.0",
     "taxonomy_version": "taxonomy_v1"
   },
   {
-    "timestamp": "2026-04-25T15:01:51.363Z",
+    "timestamp": "2026-04-25T15:57:37.571Z",
     "provider": "digitalocean",
     "country": "US",
     "region": "nyc3",
@@ -337,12 +337,12 @@
     "request_hash": "0f69739d4cd2d932738bc6c5d0bafcbbc17ec6845a15b8d121ba38aaa2098738",
     "response_hash": "beee069dc817d0a6395a0e2ea0aae5b761809980186a39d2831136a8dfa503ca",
     "response_excerpt": "DO /v2/sizes (authed): B200-SXM has no size with region=nyc3 in its regions[] array.",
-    "probe_duration_ms": 583,
+    "probe_duration_ms": 374,
     "probe_version": "0.1.0",
     "taxonomy_version": "taxonomy_v1"
   },
   {
-    "timestamp": "2026-04-25T15:01:51.363Z",
+    "timestamp": "2026-04-25T15:57:37.571Z",
     "provider": "digitalocean",
     "country": "US",
     "region": "nyc3",
@@ -356,12 +356,12 @@
     "request_hash": "0f69739d4cd2d932738bc6c5d0bafcbbc17ec6845a15b8d121ba38aaa2098738",
     "response_hash": "beee069dc817d0a6395a0e2ea0aae5b761809980186a39d2831136a8dfa503ca",
     "response_excerpt": "DO /v2/sizes (authed): MI300X-OAM-192GB has no size with region=nyc3 in its regions[] array.",
-    "probe_duration_ms": 583,
+    "probe_duration_ms": 374,
     "probe_version": "0.1.0",
     "taxonomy_version": "taxonomy_v1"
   },
   {
-    "timestamp": "2026-04-25T15:01:51.363Z",
+    "timestamp": "2026-04-25T15:57:37.571Z",
     "provider": "digitalocean",
     "country": "US",
     "region": "nyc3",
@@ -375,12 +375,12 @@
     "request_hash": "0f69739d4cd2d932738bc6c5d0bafcbbc17ec6845a15b8d121ba38aaa2098738",
     "response_hash": "beee069dc817d0a6395a0e2ea0aae5b761809980186a39d2831136a8dfa503ca",
     "response_excerpt": "DO /v2/sizes (authed): MI325X-OAM has no size with region=nyc3 in its regions[] array.",
-    "probe_duration_ms": 583,
+    "probe_duration_ms": 374,
     "probe_version": "0.1.0",
     "taxonomy_version": "taxonomy_v1"
   },
   {
-    "timestamp": "2026-04-25T15:01:51.363Z",
+    "timestamp": "2026-04-25T15:57:37.571Z",
     "provider": "digitalocean",
     "country": "US",
     "region": "sfo1",
@@ -394,12 +394,12 @@
     "request_hash": "0f69739d4cd2d932738bc6c5d0bafcbbc17ec6845a15b8d121ba38aaa2098738",
     "response_hash": "beee069dc817d0a6395a0e2ea0aae5b761809980186a39d2831136a8dfa503ca",
     "response_excerpt": "DO /v2/sizes (authed): H100-SXM-80GB has no size with region=sfo1 in its regions[] array.",
-    "probe_duration_ms": 583,
+    "probe_duration_ms": 374,
     "probe_version": "0.1.0",
     "taxonomy_version": "taxonomy_v1"
   },
   {
-    "timestamp": "2026-04-25T15:01:51.363Z",
+    "timestamp": "2026-04-25T15:57:37.571Z",
     "provider": "digitalocean",
     "country": "US",
     "region": "sfo1",
@@ -413,12 +413,12 @@
     "request_hash": "0f69739d4cd2d932738bc6c5d0bafcbbc17ec6845a15b8d121ba38aaa2098738",
     "response_hash": "beee069dc817d0a6395a0e2ea0aae5b761809980186a39d2831136a8dfa503ca",
     "response_excerpt": "DO /v2/sizes (authed): H200-SXM-141GB has no size with region=sfo1 in its regions[] array.",
-    "probe_duration_ms": 583,
+    "probe_duration_ms": 374,
     "probe_version": "0.1.0",
     "taxonomy_version": "taxonomy_v1"
   },
   {
-    "timestamp": "2026-04-25T15:01:51.363Z",
+    "timestamp": "2026-04-25T15:57:37.571Z",
     "provider": "digitalocean",
     "country": "US",
     "region": "sfo1",
@@ -432,12 +432,12 @@
     "request_hash": "0f69739d4cd2d932738bc6c5d0bafcbbc17ec6845a15b8d121ba38aaa2098738",
     "response_hash": "beee069dc817d0a6395a0e2ea0aae5b761809980186a39d2831136a8dfa503ca",
     "response_excerpt": "DO /v2/sizes (authed): B200-SXM has no size with region=sfo1 in its regions[] array.",
-    "probe_duration_ms": 583,
+    "probe_duration_ms": 374,
     "probe_version": "0.1.0",
     "taxonomy_version": "taxonomy_v1"
   },
   {
-    "timestamp": "2026-04-25T15:01:51.363Z",
+    "timestamp": "2026-04-25T15:57:37.571Z",
     "provider": "digitalocean",
     "country": "US",
     "region": "sfo1",
@@ -451,12 +451,12 @@
     "request_hash": "0f69739d4cd2d932738bc6c5d0bafcbbc17ec6845a15b8d121ba38aaa2098738",
     "response_hash": "beee069dc817d0a6395a0e2ea0aae5b761809980186a39d2831136a8dfa503ca",
     "response_excerpt": "DO /v2/sizes (authed): MI300X-OAM-192GB has no size with region=sfo1 in its regions[] array.",
-    "probe_duration_ms": 583,
+    "probe_duration_ms": 374,
     "probe_version": "0.1.0",
     "taxonomy_version": "taxonomy_v1"
   },
   {
-    "timestamp": "2026-04-25T15:01:51.363Z",
+    "timestamp": "2026-04-25T15:57:37.571Z",
     "provider": "digitalocean",
     "country": "US",
     "region": "sfo1",
@@ -470,12 +470,12 @@
     "request_hash": "0f69739d4cd2d932738bc6c5d0bafcbbc17ec6845a15b8d121ba38aaa2098738",
     "response_hash": "beee069dc817d0a6395a0e2ea0aae5b761809980186a39d2831136a8dfa503ca",
     "response_excerpt": "DO /v2/sizes (authed): MI325X-OAM has no size with region=sfo1 in its regions[] array.",
-    "probe_duration_ms": 583,
+    "probe_duration_ms": 374,
     "probe_version": "0.1.0",
     "taxonomy_version": "taxonomy_v1"
   },
   {
-    "timestamp": "2026-04-25T15:01:51.363Z",
+    "timestamp": "2026-04-25T15:57:37.571Z",
     "provider": "digitalocean",
     "country": "US",
     "region": "sfo2",
@@ -489,12 +489,12 @@
     "request_hash": "0f69739d4cd2d932738bc6c5d0bafcbbc17ec6845a15b8d121ba38aaa2098738",
     "response_hash": "beee069dc817d0a6395a0e2ea0aae5b761809980186a39d2831136a8dfa503ca",
     "response_excerpt": "DO /v2/sizes (authed): H100-SXM-80GB has no size with region=sfo2 in its regions[] array.",
-    "probe_duration_ms": 583,
+    "probe_duration_ms": 374,
     "probe_version": "0.1.0",
     "taxonomy_version": "taxonomy_v1"
   },
   {
-    "timestamp": "2026-04-25T15:01:51.363Z",
+    "timestamp": "2026-04-25T15:57:37.571Z",
     "provider": "digitalocean",
     "country": "US",
     "region": "sfo2",
@@ -508,12 +508,12 @@
     "request_hash": "0f69739d4cd2d932738bc6c5d0bafcbbc17ec6845a15b8d121ba38aaa2098738",
     "response_hash": "beee069dc817d0a6395a0e2ea0aae5b761809980186a39d2831136a8dfa503ca",
     "response_excerpt": "DO /v2/sizes (authed): H200-SXM-141GB has no size with region=sfo2 in its regions[] array.",
-    "probe_duration_ms": 583,
+    "probe_duration_ms": 374,
     "probe_version": "0.1.0",
     "taxonomy_version": "taxonomy_v1"
   },
   {
-    "timestamp": "2026-04-25T15:01:51.363Z",
+    "timestamp": "2026-04-25T15:57:37.571Z",
     "provider": "digitalocean",
     "country": "US",
     "region": "sfo2",
@@ -527,12 +527,12 @@
     "request_hash": "0f69739d4cd2d932738bc6c5d0bafcbbc17ec6845a15b8d121ba38aaa2098738",
     "response_hash": "beee069dc817d0a6395a0e2ea0aae5b761809980186a39d2831136a8dfa503ca",
     "response_excerpt": "DO /v2/sizes (authed): B200-SXM has no size with region=sfo2 in its regions[] array.",
-    "probe_duration_ms": 583,
+    "probe_duration_ms": 374,
     "probe_version": "0.1.0",
     "taxonomy_version": "taxonomy_v1"
   },
   {
-    "timestamp": "2026-04-25T15:01:51.363Z",
+    "timestamp": "2026-04-25T15:57:37.571Z",
     "provider": "digitalocean",
     "country": "US",
     "region": "sfo2",
@@ -546,12 +546,12 @@
     "request_hash": "0f69739d4cd2d932738bc6c5d0bafcbbc17ec6845a15b8d121ba38aaa2098738",
     "response_hash": "beee069dc817d0a6395a0e2ea0aae5b761809980186a39d2831136a8dfa503ca",
     "response_excerpt": "DO /v2/sizes (authed): MI300X-OAM-192GB has no size with region=sfo2 in its regions[] array.",
-    "probe_duration_ms": 583,
+    "probe_duration_ms": 374,
     "probe_version": "0.1.0",
     "taxonomy_version": "taxonomy_v1"
   },
   {
-    "timestamp": "2026-04-25T15:01:51.363Z",
+    "timestamp": "2026-04-25T15:57:37.571Z",
     "provider": "digitalocean",
     "country": "US",
     "region": "sfo2",
@@ -565,12 +565,12 @@
     "request_hash": "0f69739d4cd2d932738bc6c5d0bafcbbc17ec6845a15b8d121ba38aaa2098738",
     "response_hash": "beee069dc817d0a6395a0e2ea0aae5b761809980186a39d2831136a8dfa503ca",
     "response_excerpt": "DO /v2/sizes (authed): MI325X-OAM has no size with region=sfo2 in its regions[] array.",
-    "probe_duration_ms": 583,
+    "probe_duration_ms": 374,
     "probe_version": "0.1.0",
     "taxonomy_version": "taxonomy_v1"
   },
   {
-    "timestamp": "2026-04-25T15:01:51.363Z",
+    "timestamp": "2026-04-25T15:57:37.571Z",
     "provider": "digitalocean",
     "country": "US",
     "region": "sfo3",
@@ -584,12 +584,12 @@
     "request_hash": "0f69739d4cd2d932738bc6c5d0bafcbbc17ec6845a15b8d121ba38aaa2098738",
     "response_hash": "beee069dc817d0a6395a0e2ea0aae5b761809980186a39d2831136a8dfa503ca",
     "response_excerpt": "DO /v2/sizes (authed): H100-SXM-80GB has no size with region=sfo3 in its regions[] array.",
-    "probe_duration_ms": 583,
+    "probe_duration_ms": 374,
     "probe_version": "0.1.0",
     "taxonomy_version": "taxonomy_v1"
   },
   {
-    "timestamp": "2026-04-25T15:01:51.363Z",
+    "timestamp": "2026-04-25T15:57:37.571Z",
     "provider": "digitalocean",
     "country": "US",
     "region": "sfo3",
@@ -603,12 +603,12 @@
     "request_hash": "0f69739d4cd2d932738bc6c5d0bafcbbc17ec6845a15b8d121ba38aaa2098738",
     "response_hash": "beee069dc817d0a6395a0e2ea0aae5b761809980186a39d2831136a8dfa503ca",
     "response_excerpt": "DO /v2/sizes (authed): H200-SXM-141GB has no size with region=sfo3 in its regions[] array.",
-    "probe_duration_ms": 583,
+    "probe_duration_ms": 374,
     "probe_version": "0.1.0",
     "taxonomy_version": "taxonomy_v1"
   },
   {
-    "timestamp": "2026-04-25T15:01:51.363Z",
+    "timestamp": "2026-04-25T15:57:37.571Z",
     "provider": "digitalocean",
     "country": "US",
     "region": "sfo3",
@@ -622,12 +622,12 @@
     "request_hash": "0f69739d4cd2d932738bc6c5d0bafcbbc17ec6845a15b8d121ba38aaa2098738",
     "response_hash": "beee069dc817d0a6395a0e2ea0aae5b761809980186a39d2831136a8dfa503ca",
     "response_excerpt": "DO /v2/sizes (authed): B200-SXM has no size with region=sfo3 in its regions[] array.",
-    "probe_duration_ms": 583,
+    "probe_duration_ms": 374,
     "probe_version": "0.1.0",
     "taxonomy_version": "taxonomy_v1"
   },
   {
-    "timestamp": "2026-04-25T15:01:51.363Z",
+    "timestamp": "2026-04-25T15:57:37.571Z",
     "provider": "digitalocean",
     "country": "US",
     "region": "sfo3",
@@ -641,12 +641,12 @@
     "request_hash": "0f69739d4cd2d932738bc6c5d0bafcbbc17ec6845a15b8d121ba38aaa2098738",
     "response_hash": "beee069dc817d0a6395a0e2ea0aae5b761809980186a39d2831136a8dfa503ca",
     "response_excerpt": "DO /v2/sizes (authed): MI300X-OAM-192GB has no size with region=sfo3 in its regions[] array.",
-    "probe_duration_ms": 583,
+    "probe_duration_ms": 374,
     "probe_version": "0.1.0",
     "taxonomy_version": "taxonomy_v1"
   },
   {
-    "timestamp": "2026-04-25T15:01:51.363Z",
+    "timestamp": "2026-04-25T15:57:37.571Z",
     "provider": "digitalocean",
     "country": "US",
     "region": "sfo3",
@@ -660,12 +660,12 @@
     "request_hash": "0f69739d4cd2d932738bc6c5d0bafcbbc17ec6845a15b8d121ba38aaa2098738",
     "response_hash": "beee069dc817d0a6395a0e2ea0aae5b761809980186a39d2831136a8dfa503ca",
     "response_excerpt": "DO /v2/sizes (authed): MI325X-OAM has no size with region=sfo3 in its regions[] array.",
-    "probe_duration_ms": 583,
+    "probe_duration_ms": 374,
     "probe_version": "0.1.0",
     "taxonomy_version": "taxonomy_v1"
   },
   {
-    "timestamp": "2026-04-25T15:01:51.363Z",
+    "timestamp": "2026-04-25T15:57:37.571Z",
     "provider": "digitalocean",
     "country": "US",
     "region": "atl1",
@@ -679,12 +679,12 @@
     "request_hash": "0f69739d4cd2d932738bc6c5d0bafcbbc17ec6845a15b8d121ba38aaa2098738",
     "response_hash": "beee069dc817d0a6395a0e2ea0aae5b761809980186a39d2831136a8dfa503ca",
     "response_excerpt": "DO /v2/sizes (authed): H100-SXM-80GB has no size with region=atl1 in its regions[] array.",
-    "probe_duration_ms": 583,
+    "probe_duration_ms": 374,
     "probe_version": "0.1.0",
     "taxonomy_version": "taxonomy_v1"
   },
   {
-    "timestamp": "2026-04-25T15:01:51.363Z",
+    "timestamp": "2026-04-25T15:57:37.571Z",
     "provider": "digitalocean",
     "country": "US",
     "region": "atl1",
@@ -698,12 +698,12 @@
     "request_hash": "0f69739d4cd2d932738bc6c5d0bafcbbc17ec6845a15b8d121ba38aaa2098738",
     "response_hash": "beee069dc817d0a6395a0e2ea0aae5b761809980186a39d2831136a8dfa503ca",
     "response_excerpt": "DO /v2/sizes (authed): H200-SXM-141GB has no size with region=atl1 in its regions[] array.",
-    "probe_duration_ms": 583,
+    "probe_duration_ms": 374,
     "probe_version": "0.1.0",
     "taxonomy_version": "taxonomy_v1"
   },
   {
-    "timestamp": "2026-04-25T15:01:51.363Z",
+    "timestamp": "2026-04-25T15:57:37.571Z",
     "provider": "digitalocean",
     "country": "US",
     "region": "atl1",
@@ -717,12 +717,12 @@
     "request_hash": "0f69739d4cd2d932738bc6c5d0bafcbbc17ec6845a15b8d121ba38aaa2098738",
     "response_hash": "beee069dc817d0a6395a0e2ea0aae5b761809980186a39d2831136a8dfa503ca",
     "response_excerpt": "DO /v2/sizes (authed): B200-SXM has no size with region=atl1 in its regions[] array.",
-    "probe_duration_ms": 583,
+    "probe_duration_ms": 374,
     "probe_version": "0.1.0",
     "taxonomy_version": "taxonomy_v1"
   },
   {
-    "timestamp": "2026-04-25T15:01:51.363Z",
+    "timestamp": "2026-04-25T15:57:37.571Z",
     "provider": "digitalocean",
     "country": "US",
     "region": "atl1",
@@ -736,12 +736,12 @@
     "request_hash": "0f69739d4cd2d932738bc6c5d0bafcbbc17ec6845a15b8d121ba38aaa2098738",
     "response_hash": "beee069dc817d0a6395a0e2ea0aae5b761809980186a39d2831136a8dfa503ca",
     "response_excerpt": "DO /v2/sizes (authed): MI300X-OAM-192GB has no size with region=atl1 in its regions[] array.",
-    "probe_duration_ms": 583,
+    "probe_duration_ms": 374,
     "probe_version": "0.1.0",
     "taxonomy_version": "taxonomy_v1"
   },
   {
-    "timestamp": "2026-04-25T15:01:51.363Z",
+    "timestamp": "2026-04-25T15:57:37.571Z",
     "provider": "digitalocean",
     "country": "US",
     "region": "atl1",
@@ -755,12 +755,12 @@
     "request_hash": "0f69739d4cd2d932738bc6c5d0bafcbbc17ec6845a15b8d121ba38aaa2098738",
     "response_hash": "beee069dc817d0a6395a0e2ea0aae5b761809980186a39d2831136a8dfa503ca",
     "response_excerpt": "DO /v2/sizes (authed): MI325X-OAM has no size with region=atl1 in its regions[] array.",
-    "probe_duration_ms": 583,
+    "probe_duration_ms": 374,
     "probe_version": "0.1.0",
     "taxonomy_version": "taxonomy_v1"
   },
   {
-    "timestamp": "2026-04-25T15:01:51.363Z",
+    "timestamp": "2026-04-25T15:57:37.571Z",
     "provider": "digitalocean",
     "country": "US",
     "region": "ric1",
@@ -774,12 +774,12 @@
     "request_hash": "0f69739d4cd2d932738bc6c5d0bafcbbc17ec6845a15b8d121ba38aaa2098738",
     "response_hash": "beee069dc817d0a6395a0e2ea0aae5b761809980186a39d2831136a8dfa503ca",
     "response_excerpt": "DO /v2/sizes (authed): H100-SXM-80GB has no size with region=ric1 in its regions[] array.",
-    "probe_duration_ms": 583,
+    "probe_duration_ms": 374,
     "probe_version": "0.1.0",
     "taxonomy_version": "taxonomy_v1"
   },
   {
-    "timestamp": "2026-04-25T15:01:51.363Z",
+    "timestamp": "2026-04-25T15:57:37.571Z",
     "provider": "digitalocean",
     "country": "US",
     "region": "ric1",
@@ -793,12 +793,12 @@
     "request_hash": "0f69739d4cd2d932738bc6c5d0bafcbbc17ec6845a15b8d121ba38aaa2098738",
     "response_hash": "beee069dc817d0a6395a0e2ea0aae5b761809980186a39d2831136a8dfa503ca",
     "response_excerpt": "DO /v2/sizes (authed): H200-SXM-141GB has no size with region=ric1 in its regions[] array.",
-    "probe_duration_ms": 583,
+    "probe_duration_ms": 374,
     "probe_version": "0.1.0",
     "taxonomy_version": "taxonomy_v1"
   },
   {
-    "timestamp": "2026-04-25T15:01:51.363Z",
+    "timestamp": "2026-04-25T15:57:37.571Z",
     "provider": "digitalocean",
     "country": "US",
     "region": "ric1",
@@ -812,12 +812,12 @@
     "request_hash": "0f69739d4cd2d932738bc6c5d0bafcbbc17ec6845a15b8d121ba38aaa2098738",
     "response_hash": "beee069dc817d0a6395a0e2ea0aae5b761809980186a39d2831136a8dfa503ca",
     "response_excerpt": "DO /v2/sizes (authed): B200-SXM has no size with region=ric1 in its regions[] array.",
-    "probe_duration_ms": 583,
+    "probe_duration_ms": 374,
     "probe_version": "0.1.0",
     "taxonomy_version": "taxonomy_v1"
   },
   {
-    "timestamp": "2026-04-25T15:01:51.363Z",
+    "timestamp": "2026-04-25T15:57:37.571Z",
     "provider": "digitalocean",
     "country": "US",
     "region": "ric1",
@@ -831,12 +831,12 @@
     "request_hash": "0f69739d4cd2d932738bc6c5d0bafcbbc17ec6845a15b8d121ba38aaa2098738",
     "response_hash": "beee069dc817d0a6395a0e2ea0aae5b761809980186a39d2831136a8dfa503ca",
     "response_excerpt": "DO /v2/sizes (authed): MI300X-OAM-192GB has no size with region=ric1 in its regions[] array.",
-    "probe_duration_ms": 583,
+    "probe_duration_ms": 374,
     "probe_version": "0.1.0",
     "taxonomy_version": "taxonomy_v1"
   },
   {
-    "timestamp": "2026-04-25T15:01:51.363Z",
+    "timestamp": "2026-04-25T15:57:37.571Z",
     "provider": "digitalocean",
     "country": "US",
     "region": "ric1",
@@ -850,12 +850,12 @@
     "request_hash": "0f69739d4cd2d932738bc6c5d0bafcbbc17ec6845a15b8d121ba38aaa2098738",
     "response_hash": "beee069dc817d0a6395a0e2ea0aae5b761809980186a39d2831136a8dfa503ca",
     "response_excerpt": "DO /v2/sizes (authed): MI325X-OAM has no size with region=ric1 in its regions[] array.",
-    "probe_duration_ms": 583,
+    "probe_duration_ms": 374,
     "probe_version": "0.1.0",
     "taxonomy_version": "taxonomy_v1"
   },
   {
-    "timestamp": "2026-04-25T15:01:51.363Z",
+    "timestamp": "2026-04-25T15:57:37.571Z",
     "provider": "digitalocean",
     "country": "DE",
     "region": "fra1",
@@ -869,12 +869,12 @@
     "request_hash": "0f69739d4cd2d932738bc6c5d0bafcbbc17ec6845a15b8d121ba38aaa2098738",
     "response_hash": "beee069dc817d0a6395a0e2ea0aae5b761809980186a39d2831136a8dfa503ca",
     "response_excerpt": "DO /v2/sizes (authed): H100-SXM-80GB has no size with region=fra1 in its regions[] array.",
-    "probe_duration_ms": 583,
+    "probe_duration_ms": 374,
     "probe_version": "0.1.0",
     "taxonomy_version": "taxonomy_v1"
   },
   {
-    "timestamp": "2026-04-25T15:01:51.363Z",
+    "timestamp": "2026-04-25T15:57:37.571Z",
     "provider": "digitalocean",
     "country": "DE",
     "region": "fra1",
@@ -888,12 +888,12 @@
     "request_hash": "0f69739d4cd2d932738bc6c5d0bafcbbc17ec6845a15b8d121ba38aaa2098738",
     "response_hash": "beee069dc817d0a6395a0e2ea0aae5b761809980186a39d2831136a8dfa503ca",
     "response_excerpt": "DO /v2/sizes (authed): H200-SXM-141GB has no size with region=fra1 in its regions[] array.",
-    "probe_duration_ms": 583,
+    "probe_duration_ms": 374,
     "probe_version": "0.1.0",
     "taxonomy_version": "taxonomy_v1"
   },
   {
-    "timestamp": "2026-04-25T15:01:51.363Z",
+    "timestamp": "2026-04-25T15:57:37.571Z",
     "provider": "digitalocean",
     "country": "DE",
     "region": "fra1",
@@ -907,12 +907,12 @@
     "request_hash": "0f69739d4cd2d932738bc6c5d0bafcbbc17ec6845a15b8d121ba38aaa2098738",
     "response_hash": "beee069dc817d0a6395a0e2ea0aae5b761809980186a39d2831136a8dfa503ca",
     "response_excerpt": "DO /v2/sizes (authed): B200-SXM has no size with region=fra1 in its regions[] array.",
-    "probe_duration_ms": 583,
+    "probe_duration_ms": 374,
     "probe_version": "0.1.0",
     "taxonomy_version": "taxonomy_v1"
   },
   {
-    "timestamp": "2026-04-25T15:01:51.363Z",
+    "timestamp": "2026-04-25T15:57:37.571Z",
     "provider": "digitalocean",
     "country": "DE",
     "region": "fra1",
@@ -926,12 +926,12 @@
     "request_hash": "0f69739d4cd2d932738bc6c5d0bafcbbc17ec6845a15b8d121ba38aaa2098738",
     "response_hash": "beee069dc817d0a6395a0e2ea0aae5b761809980186a39d2831136a8dfa503ca",
     "response_excerpt": "DO /v2/sizes (authed): MI300X-OAM-192GB has no size with region=fra1 in its regions[] array.",
-    "probe_duration_ms": 583,
+    "probe_duration_ms": 374,
     "probe_version": "0.1.0",
     "taxonomy_version": "taxonomy_v1"
   },
   {
-    "timestamp": "2026-04-25T15:01:51.363Z",
+    "timestamp": "2026-04-25T15:57:37.571Z",
     "provider": "digitalocean",
     "country": "DE",
     "region": "fra1",
@@ -945,12 +945,12 @@
     "request_hash": "0f69739d4cd2d932738bc6c5d0bafcbbc17ec6845a15b8d121ba38aaa2098738",
     "response_hash": "beee069dc817d0a6395a0e2ea0aae5b761809980186a39d2831136a8dfa503ca",
     "response_excerpt": "DO /v2/sizes (authed): MI325X-OAM has no size with region=fra1 in its regions[] array.",
-    "probe_duration_ms": 583,
+    "probe_duration_ms": 374,
     "probe_version": "0.1.0",
     "taxonomy_version": "taxonomy_v1"
   },
   {
-    "timestamp": "2026-04-25T15:01:51.363Z",
+    "timestamp": "2026-04-25T15:57:37.571Z",
     "provider": "digitalocean",
     "country": "UK",
     "region": "lon1",
@@ -964,12 +964,12 @@
     "request_hash": "0f69739d4cd2d932738bc6c5d0bafcbbc17ec6845a15b8d121ba38aaa2098738",
     "response_hash": "beee069dc817d0a6395a0e2ea0aae5b761809980186a39d2831136a8dfa503ca",
     "response_excerpt": "DO /v2/sizes (authed): H100-SXM-80GB has no size with region=lon1 in its regions[] array.",
-    "probe_duration_ms": 583,
+    "probe_duration_ms": 374,
     "probe_version": "0.1.0",
     "taxonomy_version": "taxonomy_v1"
   },
   {
-    "timestamp": "2026-04-25T15:01:51.363Z",
+    "timestamp": "2026-04-25T15:57:37.571Z",
     "provider": "digitalocean",
     "country": "UK",
     "region": "lon1",
@@ -983,12 +983,12 @@
     "request_hash": "0f69739d4cd2d932738bc6c5d0bafcbbc17ec6845a15b8d121ba38aaa2098738",
     "response_hash": "beee069dc817d0a6395a0e2ea0aae5b761809980186a39d2831136a8dfa503ca",
     "response_excerpt": "DO /v2/sizes (authed): H200-SXM-141GB has no size with region=lon1 in its regions[] array.",
-    "probe_duration_ms": 583,
+    "probe_duration_ms": 374,
     "probe_version": "0.1.0",
     "taxonomy_version": "taxonomy_v1"
   },
   {
-    "timestamp": "2026-04-25T15:01:51.363Z",
+    "timestamp": "2026-04-25T15:57:37.571Z",
     "provider": "digitalocean",
     "country": "UK",
     "region": "lon1",
@@ -1002,12 +1002,12 @@
     "request_hash": "0f69739d4cd2d932738bc6c5d0bafcbbc17ec6845a15b8d121ba38aaa2098738",
     "response_hash": "beee069dc817d0a6395a0e2ea0aae5b761809980186a39d2831136a8dfa503ca",
     "response_excerpt": "DO /v2/sizes (authed): B200-SXM has no size with region=lon1 in its regions[] array.",
-    "probe_duration_ms": 583,
+    "probe_duration_ms": 374,
     "probe_version": "0.1.0",
     "taxonomy_version": "taxonomy_v1"
   },
   {
-    "timestamp": "2026-04-25T15:01:51.363Z",
+    "timestamp": "2026-04-25T15:57:37.571Z",
     "provider": "digitalocean",
     "country": "UK",
     "region": "lon1",
@@ -1021,12 +1021,12 @@
     "request_hash": "0f69739d4cd2d932738bc6c5d0bafcbbc17ec6845a15b8d121ba38aaa2098738",
     "response_hash": "beee069dc817d0a6395a0e2ea0aae5b761809980186a39d2831136a8dfa503ca",
     "response_excerpt": "DO /v2/sizes (authed): MI300X-OAM-192GB has no size with region=lon1 in its regions[] array.",
-    "probe_duration_ms": 583,
+    "probe_duration_ms": 374,
     "probe_version": "0.1.0",
     "taxonomy_version": "taxonomy_v1"
   },
   {
-    "timestamp": "2026-04-25T15:01:51.363Z",
+    "timestamp": "2026-04-25T15:57:37.571Z",
     "provider": "digitalocean",
     "country": "UK",
     "region": "lon1",
@@ -1040,7 +1040,7 @@
     "request_hash": "0f69739d4cd2d932738bc6c5d0bafcbbc17ec6845a15b8d121ba38aaa2098738",
     "response_hash": "beee069dc817d0a6395a0e2ea0aae5b761809980186a39d2831136a8dfa503ca",
     "response_excerpt": "DO /v2/sizes (authed): MI325X-OAM has no size with region=lon1 in its regions[] array.",
-    "probe_duration_ms": 583,
+    "probe_duration_ms": 374,
     "probe_version": "0.1.0",
     "taxonomy_version": "taxonomy_v1"
   }
