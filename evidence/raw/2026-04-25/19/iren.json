@@ -1,6 +1,6 @@
 [
   {
-    "timestamp": "2026-04-25T19:13:21.076Z",
+    "timestamp": "2026-04-25T19:56:31.389Z",
     "provider": "iren",
     "country": "CA",
     "region": "iren-bc",
@@ -12,14 +12,14 @@
     "probe_type": "badge_scrape",
     "endpoint": "https://iren.com/",
     "request_hash": "e5ede05b6553a229fdd3700b9bfe84a871e8c8c4460a120253be354297c298dd",
-    "response_hash": "5a1cd2980723860c41b540414a241b92c591354ff5c08f258688acaac1e2cff2",
+    "response_hash": "4a85e60073fe29da7426f16dcb1f95b16e1825e18d9b78d2eefceccdae33ff12",
     "response_excerpt": "IREN | Next-Gen Data Centers for AI, HPC &amp; Sustainable Compute AI Cloud AI Data Centers Colocation Turnkey colocation data center solutions for your infrastructure needs. Build-To-Suit Custom-built data centers designed to your exact specifications. Locations Mackenzie 80 MW 11 Acres British Columbia, Canada Sweetwater Under construction 2,000 MW &gt;1,800 Acres Texas, USA Canal Flats 30 MW 10 Acres British Columbia, Canada Childress 750 MW 576 Acres Texas, USA Prince George 50 MW 12 Acres B",
-    "probe_duration_ms": 591,
+    "probe_duration_ms": 794,
     "probe_version": "0.1.0",
     "taxonomy_version": "taxonomy_v1"
   },
   {
-    "timestamp": "2026-04-25T19:13:21.076Z",
+    "timestamp": "2026-04-25T19:56:31.389Z",
     "provider": "iren",
     "country": "CA",
     "region": "iren-bc",
@@ -31,14 +31,14 @@
     "probe_type": "badge_scrape",
     "endpoint": "https://iren.com/",
     "request_hash": "e5ede05b6553a229fdd3700b9bfe84a871e8c8c4460a120253be354297c298dd",
-    "response_hash": "5a1cd2980723860c41b540414a241b92c591354ff5c08f258688acaac1e2cff2",
+    "response_hash": "4a85e60073fe29da7426f16dcb1f95b16e1825e18d9b78d2eefceccdae33ff12",
     "response_excerpt": "IREN | Next-Gen Data Centers for AI, HPC &amp; Sustainable Compute AI Cloud AI Data Centers Colocation Turnkey colocation data center solutions for your infrastructure needs. Build-To-Suit Custom-built data centers designed to your exact specifications. Locations Mackenzie 80 MW 11 Acres British Columbia, Canada Sweetwater Under construction 2,000 MW &gt;1,800 Acres Texas, USA Canal Flats 30 MW 10 Acres British Columbia, Canada Childress 750 MW 576 Acres Texas, USA Prince George 50 MW 12 Acres B",
-    "probe_duration_ms": 591,
+    "probe_duration_ms": 794,
     "probe_version": "0.1.0",
     "taxonomy_version": "taxonomy_v1"
   },
   {
-    "timestamp": "2026-04-25T19:13:21.076Z",
+    "timestamp": "2026-04-25T19:56:31.389Z",
     "provider": "iren",
     "country": "CA",
     "region": "iren-bc",
@@ -50,14 +50,14 @@
     "probe_type": "badge_scrape",
     "endpoint": "https://iren.com/",
     "request_hash": "e5ede05b6553a229fdd3700b9bfe84a871e8c8c4460a120253be354297c298dd",
-    "response_hash": "5a1cd2980723860c41b540414a241b92c591354ff5c08f258688acaac1e2cff2",
+    "response_hash": "4a85e60073fe29da7426f16dcb1f95b16e1825e18d9b78d2eefceccdae33ff12",
     "response_excerpt": "IREN | Next-Gen Data Centers for AI, HPC &amp; Sustainable Compute AI Cloud AI Data Centers Colocation Turnkey colocation data center solutions for your infrastructure needs. Build-To-Suit Custom-built data centers designed to your exact specifications. Locations Mackenzie 80 MW 11 Acres British Columbia, Canada Sweetwater Under construction 2,000 MW &gt;1,800 Acres Texas, USA Canal Flats 30 MW 10 Acres British Columbia, Canada Childress 750 MW 576 Acres Texas, USA Prince George 50 MW 12 Acres B",
-    "probe_duration_ms": 591,
+    "probe_duration_ms": 794,
     "probe_version": "0.1.0",
     "taxonomy_version": "taxonomy_v1"
   },
   {
-    "timestamp": "2026-04-25T19:13:21.076Z",
+    "timestamp": "2026-04-25T19:56:31.389Z",
     "provider": "iren",
     "country": "CA",
     "region": "iren-bc",
@@ -69,14 +69,14 @@
     "probe_type": "badge_scrape",
     "endpoint": "https://iren.com/",
     "request_hash": "e5ede05b6553a229fdd3700b9bfe84a871e8c8c4460a120253be354297c298dd",
-    "response_hash": "5a1cd2980723860c41b540414a241b92c591354ff5c08f258688acaac1e2cff2",
+    "response_hash": "4a85e60073fe29da7426f16dcb1f95b16e1825e18d9b78d2eefceccdae33ff12",
     "response_excerpt": "IREN | Next-Gen Data Centers for AI, HPC &amp; Sustainable Compute AI Cloud AI Data Centers Colocation Turnkey colocation data center solutions for your infrastructure needs. Build-To-Suit Custom-built data centers designed to your exact specifications. Locations Mackenzie 80 MW 11 Acres British Columbia, Canada Sweetwater Under construction 2,000 MW &gt;1,800 Acres Texas, USA Canal Flats 30 MW 10 Acres British Columbia, Canada Childress 750 MW 576 Acres Texas, USA Prince George 50 MW 12 Acres B",
-    "probe_duration_ms": 591,
+    "probe_duration_ms": 794,
     "probe_version": "0.1.0",
     "taxonomy_version": "taxonomy_v1"
   },
   {
-    "timestamp": "2026-04-25T19:13:21.076Z",
+    "timestamp": "2026-04-25T19:56:31.389Z",
     "provider": "iren",
     "country": "CA",
     "region": "iren-bc",
@@ -88,9 +88,9 @@
     "probe_type": "badge_scrape",
     "endpoint": "https://iren.com/",
     "request_hash": "e5ede05b6553a229fdd3700b9bfe84a871e8c8c4460a120253be354297c298dd",
-    "response_hash": "5a1cd2980723860c41b540414a241b92c591354ff5c08f258688acaac1e2cff2",
+    "response_hash": "4a85e60073fe29da7426f16dcb1f95b16e1825e18d9b78d2eefceccdae33ff12",
     "response_excerpt": "IREN | Next-Gen Data Centers for AI, HPC &amp; Sustainable Compute AI Cloud AI Data Centers Colocation Turnkey colocation data center solutions for your infrastructure needs. Build-To-Suit Custom-built data centers designed to your exact specifications. Locations Mackenzie 80 MW 11 Acres British Columbia, Canada Sweetwater Under construction 2,000 MW &gt;1,800 Acres Texas, USA Canal Flats 30 MW 10 Acres British Columbia, Canada Childress 750 MW 576 Acres Texas, USA Prince George 50 MW 12 Acres B",
-    "probe_duration_ms": 591,
+    "probe_duration_ms": 794,
     "probe_version": "0.1.0",
     "taxonomy_version": "taxonomy_v1"
   }
