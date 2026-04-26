@@ -1,6 +1,6 @@
 [
   {
-    "timestamp": "2026-04-26T17:04:24.462Z",
+    "timestamp": "2026-04-26T17:59:51.495Z",
     "provider": "oci",
     "country": "CA",
     "region": "oci-catalog",
@@ -14,12 +14,12 @@
     "request_hash": "9683ae3b4ca5cd9b46e4be2e8b837223a56949c991cae5e748ec82715d05493b",
     "response_hash": "e343d74bd83e4f23f17cce68909eaab415d624a034999372d13b9748dc88b83e",
     "response_excerpt": "CATALOG ONLY — OCI shape BM.GPU.H100.8 listed in public catalog; OCI has these G7 regions for CA: ca-montreal-1, ca-toronto-1; per-region availability unverified without authed probe. Compute Shapes window.ohcglobal || document.write(' \\x3C/script>') Oracle Cloud Infrastructure Documentation All Pages Skip to main content Compute Shapes A shape is a template that determines the num",
-    "probe_duration_ms": 66,
+    "probe_duration_ms": 174,
     "probe_version": "0.1.0",
     "taxonomy_version": "taxonomy_v1"
   },
   {
-    "timestamp": "2026-04-26T17:04:24.462Z",
+    "timestamp": "2026-04-26T17:59:51.495Z",
     "provider": "oci",
     "country": "CA",
     "region": "oci-catalog",
@@ -33,12 +33,12 @@
     "request_hash": "9683ae3b4ca5cd9b46e4be2e8b837223a56949c991cae5e748ec82715d05493b",
     "response_hash": "e343d74bd83e4f23f17cce68909eaab415d624a034999372d13b9748dc88b83e",
     "response_excerpt": "CATALOG ONLY — OCI shape BM.GPU.H200.8 listed in public catalog; OCI has these G7 regions for CA: ca-montreal-1, ca-toronto-1; per-region availability unverified without authed probe. Compute Shapes window.ohcglobal || document.write(' \\x3C/script>') Oracle Cloud Infrastructure Documentation All Pages Skip to main content Compute Shapes A shape is a template that determines the num",
-    "probe_duration_ms": 66,
+    "probe_duration_ms": 174,
     "probe_version": "0.1.0",
     "taxonomy_version": "taxonomy_v1"
   },
   {
-    "timestamp": "2026-04-26T17:04:24.462Z",
+    "timestamp": "2026-04-26T17:59:51.495Z",
     "provider": "oci",
     "country": "CA",
     "region": "oci-catalog",
@@ -52,12 +52,12 @@
     "request_hash": "9683ae3b4ca5cd9b46e4be2e8b837223a56949c991cae5e748ec82715d05493b",
     "response_hash": "e343d74bd83e4f23f17cce68909eaab415d624a034999372d13b9748dc88b83e",
     "response_excerpt": "CATALOG ONLY — OCI shape BM.GPU.B200.8 listed in public catalog; OCI has these G7 regions for CA: ca-montreal-1, ca-toronto-1; per-region availability unverified without authed probe. Compute Shapes window.ohcglobal || document.write(' \\x3C/script>') Oracle Cloud Infrastructure Documentation All Pages Skip to main content Compute Shapes A shape is a template that determines the num",
-    "probe_duration_ms": 66,
+    "probe_duration_ms": 174,
     "probe_version": "0.1.0",
     "taxonomy_version": "taxonomy_v1"
   },
   {
-    "timestamp": "2026-04-26T17:04:24.462Z",
+    "timestamp": "2026-04-26T17:59:51.495Z",
     "provider": "oci",
     "country": "CA",
     "region": "oci-catalog",
@@ -71,12 +71,12 @@
     "request_hash": "9683ae3b4ca5cd9b46e4be2e8b837223a56949c991cae5e748ec82715d05493b",
     "response_hash": "e343d74bd83e4f23f17cce68909eaab415d624a034999372d13b9748dc88b83e",
     "response_excerpt": "CATALOG ONLY — OCI shape BM.GPU.GB200.4 listed in public catalog; OCI has these G7 regions for CA: ca-montreal-1, ca-toronto-1; per-region availability unverified without authed probe. Compute Shapes window.ohcglobal || document.write(' \\x3C/script>') Oracle Cloud Infrastructure Documentation All Pages Skip to main content Compute Shapes A shape is a template that determines the num",
-    "probe_duration_ms": 66,
+    "probe_duration_ms": 174,
     "probe_version": "0.1.0",
     "taxonomy_version": "taxonomy_v1"
   },
   {
-    "timestamp": "2026-04-26T17:04:24.462Z",
+    "timestamp": "2026-04-26T17:59:51.495Z",
     "provider": "oci",
     "country": "CA",
     "region": "oci-catalog",
@@ -90,12 +90,12 @@
     "request_hash": "9683ae3b4ca5cd9b46e4be2e8b837223a56949c991cae5e748ec82715d05493b",
     "response_hash": "e343d74bd83e4f23f17cce68909eaab415d624a034999372d13b9748dc88b83e",
     "response_excerpt": "CATALOG ONLY — OCI shape BM.GPU.MI300X.8 listed in public catalog; OCI has these G7 regions for CA: ca-montreal-1, ca-toronto-1; per-region availability unverified without authed probe. Compute Shapes window.ohcglobal || document.write(' \\x3C/script>') Oracle Cloud Infrastructure Documentation All Pages Skip to main content Compute Shapes A shape is a template that determines the num",
-    "probe_duration_ms": 66,
+    "probe_duration_ms": 174,
     "probe_version": "0.1.0",
     "taxonomy_version": "taxonomy_v1"
   },
   {
-    "timestamp": "2026-04-26T17:04:24.462Z",
+    "timestamp": "2026-04-26T17:59:51.495Z",
     "provider": "oci",
     "country": "CA",
     "region": "oci-catalog",
@@ -109,12 +109,12 @@
     "request_hash": "9683ae3b4ca5cd9b46e4be2e8b837223a56949c991cae5e748ec82715d05493b",
     "response_hash": "e343d74bd83e4f23f17cce68909eaab415d624a034999372d13b9748dc88b83e",
     "response_excerpt": "CATALOG ONLY — OCI shape BM.GPU.MI355X.8 listed in public catalog; OCI has these G7 regions for CA: ca-montreal-1, ca-toronto-1; per-region availability unverified without authed probe. Compute Shapes window.ohcglobal || document.write(' \\x3C/script>') Oracle Cloud Infrastructure Documentation All Pages Skip to main content Compute Shapes A shape is a template that determines the num",
-    "probe_duration_ms": 66,
+    "probe_duration_ms": 174,
     "probe_version": "0.1.0",
     "taxonomy_version": "taxonomy_v1"
   },
   {
-    "timestamp": "2026-04-26T17:04:24.462Z",
+    "timestamp": "2026-04-26T17:59:51.495Z",
     "provider": "oci",
     "country": "FR",
     "region": "oci-catalog",
@@ -128,12 +128,12 @@
     "request_hash": "9683ae3b4ca5cd9b46e4be2e8b837223a56949c991cae5e748ec82715d05493b",
     "response_hash": "e343d74bd83e4f23f17cce68909eaab415d624a034999372d13b9748dc88b83e",
     "response_excerpt": "CATALOG ONLY — OCI shape BM.GPU.H100.8 listed in public catalog; OCI has these G7 regions for FR: eu-paris-1, eu-marseille-1; per-region availability unverified without authed probe. Compute Shapes window.ohcglobal || document.write(' \\x3C/script>') Oracle Cloud Infrastructure Documentation All Pages Skip to main content Compute Shapes A shape is a template that determines the num",
-    "probe_duration_ms": 66,
+    "probe_duration_ms": 174,
     "probe_version": "0.1.0",
     "taxonomy_version": "taxonomy_v1"
   },
   {
-    "timestamp": "2026-04-26T17:04:24.462Z",
+    "timestamp": "2026-04-26T17:59:51.495Z",
     "provider": "oci",
     "country": "FR",
     "region": "oci-catalog",
@@ -147,12 +147,12 @@
     "request_hash": "9683ae3b4ca5cd9b46e4be2e8b837223a56949c991cae5e748ec82715d05493b",
     "response_hash": "e343d74bd83e4f23f17cce68909eaab415d624a034999372d13b9748dc88b83e",
     "response_excerpt": "CATALOG ONLY — OCI shape BM.GPU.H200.8 listed in public catalog; OCI has these G7 regions for FR: eu-paris-1, eu-marseille-1; per-region availability unverified without authed probe. Compute Shapes window.ohcglobal || document.write(' \\x3C/script>') Oracle Cloud Infrastructure Documentation All Pages Skip to main content Compute Shapes A shape is a template that determines the num",
-    "probe_duration_ms": 66,
+    "probe_duration_ms": 174,
     "probe_version": "0.1.0",
     "taxonomy_version": "taxonomy_v1"
   },
   {
-    "timestamp": "2026-04-26T17:04:24.462Z",
+    "timestamp": "2026-04-26T17:59:51.495Z",
     "provider": "oci",
     "country": "FR",
     "region": "oci-catalog",
@@ -166,12 +166,12 @@
     "request_hash": "9683ae3b4ca5cd9b46e4be2e8b837223a56949c991cae5e748ec82715d05493b",
     "response_hash": "e343d74bd83e4f23f17cce68909eaab415d624a034999372d13b9748dc88b83e",
     "response_excerpt": "CATALOG ONLY — OCI shape BM.GPU.B200.8 listed in public catalog; OCI has these G7 regions for FR: eu-paris-1, eu-marseille-1; per-region availability unverified without authed probe. Compute Shapes window.ohcglobal || document.write(' \\x3C/script>') Oracle Cloud Infrastructure Documentation All Pages Skip to main content Compute Shapes A shape is a template that determines the num",
-    "probe_duration_ms": 66,
+    "probe_duration_ms": 174,
     "probe_version": "0.1.0",
     "taxonomy_version": "taxonomy_v1"
   },
   {
-    "timestamp": "2026-04-26T17:04:24.462Z",
+    "timestamp": "2026-04-26T17:59:51.495Z",
     "provider": "oci",
     "country": "FR",
     "region": "oci-catalog",
@@ -185,12 +185,12 @@
     "request_hash": "9683ae3b4ca5cd9b46e4be2e8b837223a56949c991cae5e748ec82715d05493b",
     "response_hash": "e343d74bd83e4f23f17cce68909eaab415d624a034999372d13b9748dc88b83e",
     "response_excerpt": "CATALOG ONLY — OCI shape BM.GPU.GB200.4 listed in public catalog; OCI has these G7 regions for FR: eu-paris-1, eu-marseille-1; per-region availability unverified without authed probe. Compute Shapes window.ohcglobal || document.write(' \\x3C/script>') Oracle Cloud Infrastructure Documentation All Pages Skip to main content Compute Shapes A shape is a template that determines the num",
-    "probe_duration_ms": 66,
+    "probe_duration_ms": 174,
     "probe_version": "0.1.0",
     "taxonomy_version": "taxonomy_v1"
   },
   {
-    "timestamp": "2026-04-26T17:04:24.462Z",
+    "timestamp": "2026-04-26T17:59:51.495Z",
     "provider": "oci",
     "country": "FR",
     "region": "oci-catalog",
@@ -204,12 +204,12 @@
     "request_hash": "9683ae3b4ca5cd9b46e4be2e8b837223a56949c991cae5e748ec82715d05493b",
     "response_hash": "e343d74bd83e4f23f17cce68909eaab415d624a034999372d13b9748dc88b83e",
     "response_excerpt": "CATALOG ONLY — OCI shape BM.GPU.MI300X.8 listed in public catalog; OCI has these G7 regions for FR: eu-paris-1, eu-marseille-1; per-region availability unverified without authed probe. Compute Shapes window.ohcglobal || document.write(' \\x3C/script>') Oracle Cloud Infrastructure Documentation All Pages Skip to main content Compute Shapes A shape is a template that determines the num",
-    "probe_duration_ms": 66,
+    "probe_duration_ms": 174,
     "probe_version": "0.1.0",
     "taxonomy_version": "taxonomy_v1"
   },
   {
-    "timestamp": "2026-04-26T17:04:24.462Z",
+    "timestamp": "2026-04-26T17:59:51.495Z",
     "provider": "oci",
     "country": "FR",
     "region": "oci-catalog",
@@ -223,12 +223,12 @@
     "request_hash": "9683ae3b4ca5cd9b46e4be2e8b837223a56949c991cae5e748ec82715d05493b",
     "response_hash": "e343d74bd83e4f23f17cce68909eaab415d624a034999372d13b9748dc88b83e",
     "response_excerpt": "CATALOG ONLY — OCI shape BM.GPU.MI355X.8 listed in public catalog; OCI has these G7 regions for FR: eu-paris-1, eu-marseille-1; per-region availability unverified without authed probe. Compute Shapes window.ohcglobal || document.write(' \\x3C/script>') Oracle Cloud Infrastructure Documentation All Pages Skip to main content Compute Shapes A shape is a template that determines the num",
-    "probe_duration_ms": 66,
+    "probe_duration_ms": 174,
     "probe_version": "0.1.0",
     "taxonomy_version": "taxonomy_v1"
   },
   {
-    "timestamp": "2026-04-26T17:04:24.462Z",
+    "timestamp": "2026-04-26T17:59:51.495Z",
     "provider": "oci",
     "country": "DE",
     "region": "oci-catalog",
@@ -242,12 +242,12 @@
     "request_hash": "9683ae3b4ca5cd9b46e4be2e8b837223a56949c991cae5e748ec82715d05493b",
     "response_hash": "e343d74bd83e4f23f17cce68909eaab415d624a034999372d13b9748dc88b83e",
     "response_excerpt": "CATALOG ONLY — OCI shape BM.GPU.H100.8 listed in public catalog; OCI has these G7 regions for DE: eu-frankfurt-1; per-region availability unverified without authed probe. Compute Shapes window.ohcglobal || document.write(' \\x3C/script>') Oracle Cloud Infrastructure Documentation All Pages Skip to main content Compute Shapes A shape is a template that determines the num",
-    "probe_duration_ms": 66,
+    "probe_duration_ms": 174,
     "probe_version": "0.1.0",
     "taxonomy_version": "taxonomy_v1"
   },
   {
-    "timestamp": "2026-04-26T17:04:24.462Z",
+    "timestamp": "2026-04-26T17:59:51.495Z",
     "provider": "oci",
     "country": "DE",
     "region": "oci-catalog",
@@ -261,12 +261,12 @@
     "request_hash": "9683ae3b4ca5cd9b46e4be2e8b837223a56949c991cae5e748ec82715d05493b",
     "response_hash": "e343d74bd83e4f23f17cce68909eaab415d624a034999372d13b9748dc88b83e",
     "response_excerpt": "CATALOG ONLY — OCI shape BM.GPU.H200.8 listed in public catalog; OCI has these G7 regions for DE: eu-frankfurt-1; per-region availability unverified without authed probe. Compute Shapes window.ohcglobal || document.write(' \\x3C/script>') Oracle Cloud Infrastructure Documentation All Pages Skip to main content Compute Shapes A shape is a template that determines the num",
-    "probe_duration_ms": 66,
+    "probe_duration_ms": 174,
     "probe_version": "0.1.0",
     "taxonomy_version": "taxonomy_v1"
   },
   {
-    "timestamp": "2026-04-26T17:04:24.462Z",
+    "timestamp": "2026-04-26T17:59:51.495Z",
     "provider": "oci",
     "country": "DE",
     "region": "oci-catalog",
@@ -280,12 +280,12 @@
     "request_hash": "9683ae3b4ca5cd9b46e4be2e8b837223a56949c991cae5e748ec82715d05493b",
     "response_hash": "e343d74bd83e4f23f17cce68909eaab415d624a034999372d13b9748dc88b83e",
     "response_excerpt": "CATALOG ONLY — OCI shape BM.GPU.B200.8 listed in public catalog; OCI has these G7 regions for DE: eu-frankfurt-1; per-region availability unverified without authed probe. Compute Shapes window.ohcglobal || document.write(' \\x3C/script>') Oracle Cloud Infrastructure Documentation All Pages Skip to main content Compute Shapes A shape is a template that determines the num",
-    "probe_duration_ms": 66,
+    "probe_duration_ms": 174,
     "probe_version": "0.1.0",
     "taxonomy_version": "taxonomy_v1"
   },
   {
-    "timestamp": "2026-04-26T17:04:24.462Z",
+    "timestamp": "2026-04-26T17:59:51.495Z",
     "provider": "oci",
     "country": "DE",
     "region": "oci-catalog",
@@ -299,12 +299,12 @@
     "request_hash": "9683ae3b4ca5cd9b46e4be2e8b837223a56949c991cae5e748ec82715d05493b",
     "response_hash": "e343d74bd83e4f23f17cce68909eaab415d624a034999372d13b9748dc88b83e",
     "response_excerpt": "CATALOG ONLY — OCI shape BM.GPU.GB200.4 listed in public catalog; OCI has these G7 regions for DE: eu-frankfurt-1; per-region availability unverified without authed probe. Compute Shapes window.ohcglobal || document.write(' \\x3C/script>') Oracle Cloud Infrastructure Documentation All Pages Skip to main content Compute Shapes A shape is a template that determines the num",
-    "probe_duration_ms": 66,
+    "probe_duration_ms": 174,
     "probe_version": "0.1.0",
     "taxonomy_version": "taxonomy_v1"
   },
   {
-    "timestamp": "2026-04-26T17:04:24.462Z",
+    "timestamp": "2026-04-26T17:59:51.495Z",
     "provider": "oci",
     "country": "DE",
     "region": "oci-catalog",
@@ -318,12 +318,12 @@
     "request_hash": "9683ae3b4ca5cd9b46e4be2e8b837223a56949c991cae5e748ec82715d05493b",
     "response_hash": "e343d74bd83e4f23f17cce68909eaab415d624a034999372d13b9748dc88b83e",
     "response_excerpt": "CATALOG ONLY — OCI shape BM.GPU.MI300X.8 listed in public catalog; OCI has these G7 regions for DE: eu-frankfurt-1; per-region availability unverified without authed probe. Compute Shapes window.ohcglobal || document.write(' \\x3C/script>') Oracle Cloud Infrastructure Documentation All Pages Skip to main content Compute Shapes A shape is a template that determines the num",
-    "probe_duration_ms": 66,
+    "probe_duration_ms": 174,
     "probe_version": "0.1.0",
     "taxonomy_version": "taxonomy_v1"
   },
   {
-    "timestamp": "2026-04-26T17:04:24.462Z",
+    "timestamp": "2026-04-26T17:59:51.495Z",
     "provider": "oci",
     "country": "DE",
     "region": "oci-catalog",
@@ -337,12 +337,12 @@
     "request_hash": "9683ae3b4ca5cd9b46e4be2e8b837223a56949c991cae5e748ec82715d05493b",
     "response_hash": "e343d74bd83e4f23f17cce68909eaab415d624a034999372d13b9748dc88b83e",
     "response_excerpt": "CATALOG ONLY — OCI shape BM.GPU.MI355X.8 listed in public catalog; OCI has these G7 regions for DE: eu-frankfurt-1; per-region availability unverified without authed probe. Compute Shapes window.ohcglobal || document.write(' \\x3C/script>') Oracle Cloud Infrastructure Documentation All Pages Skip to main content Compute Shapes A shape is a template that determines the num",
-    "probe_duration_ms": 66,
+    "probe_duration_ms": 174,
     "probe_version": "0.1.0",
     "taxonomy_version": "taxonomy_v1"
   },
   {
-    "timestamp": "2026-04-26T17:04:24.462Z",
+    "timestamp": "2026-04-26T17:59:51.495Z",
     "provider": "oci",
     "country": "IT",
     "region": "oci-catalog",
@@ -356,12 +356,12 @@
     "request_hash": "9683ae3b4ca5cd9b46e4be2e8b837223a56949c991cae5e748ec82715d05493b",
     "response_hash": "e343d74bd83e4f23f17cce68909eaab415d624a034999372d13b9748dc88b83e",
     "response_excerpt": "CATALOG ONLY — OCI shape BM.GPU.H100.8 listed in public catalog; OCI has these G7 regions for IT: eu-milan-1, eu-turin-1; per-region availability unverified without authed probe. Compute Shapes window.ohcglobal || document.write(' \\x3C/script>') Oracle Cloud Infrastructure Documentation All Pages Skip to main content Compute Shapes A shape is a template that determines the num",
-    "probe_duration_ms": 66,
+    "probe_duration_ms": 174,
     "probe_version": "0.1.0",
     "taxonomy_version": "taxonomy_v1"
   },
   {
-    "timestamp": "2026-04-26T17:04:24.462Z",
+    "timestamp": "2026-04-26T17:59:51.495Z",
     "provider": "oci",
     "country": "IT",
     "region": "oci-catalog",
@@ -375,12 +375,12 @@
     "request_hash": "9683ae3b4ca5cd9b46e4be2e8b837223a56949c991cae5e748ec82715d05493b",
     "response_hash": "e343d74bd83e4f23f17cce68909eaab415d624a034999372d13b9748dc88b83e",
     "response_excerpt": "CATALOG ONLY — OCI shape BM.GPU.H200.8 listed in public catalog; OCI has these G7 regions for IT: eu-milan-1, eu-turin-1; per-region availability unverified without authed probe. Compute Shapes window.ohcglobal || document.write(' \\x3C/script>') Oracle Cloud Infrastructure Documentation All Pages Skip to main content Compute Shapes A shape is a template that determines the num",
-    "probe_duration_ms": 66,
+    "probe_duration_ms": 174,
     "probe_version": "0.1.0",
     "taxonomy_version": "taxonomy_v1"
   },
   {
-    "timestamp": "2026-04-26T17:04:24.462Z",
+    "timestamp": "2026-04-26T17:59:51.495Z",
     "provider": "oci",
     "country": "IT",
     "region": "oci-catalog",
@@ -394,12 +394,12 @@
     "request_hash": "9683ae3b4ca5cd9b46e4be2e8b837223a56949c991cae5e748ec82715d05493b",
     "response_hash": "e343d74bd83e4f23f17cce68909eaab415d624a034999372d13b9748dc88b83e",
     "response_excerpt": "CATALOG ONLY — OCI shape BM.GPU.B200.8 listed in public catalog; OCI has these G7 regions for IT: eu-milan-1, eu-turin-1; per-region availability unverified without authed probe. Compute Shapes window.ohcglobal || document.write(' \\x3C/script>') Oracle Cloud Infrastructure Documentation All Pages Skip to main content Compute Shapes A shape is a template that determines the num",
-    "probe_duration_ms": 66,
+    "probe_duration_ms": 174,
     "probe_version": "0.1.0",
     "taxonomy_version": "taxonomy_v1"
   },
   {
-    "timestamp": "2026-04-26T17:04:24.462Z",
+    "timestamp": "2026-04-26T17:59:51.495Z",
     "provider": "oci",
     "country": "IT",
     "region": "oci-catalog",
@@ -413,12 +413,12 @@
     "request_hash": "9683ae3b4ca5cd9b46e4be2e8b837223a56949c991cae5e748ec82715d05493b",
     "response_hash": "e343d74bd83e4f23f17cce68909eaab415d624a034999372d13b9748dc88b83e",
     "response_excerpt": "CATALOG ONLY — OCI shape BM.GPU.GB200.4 listed in public catalog; OCI has these G7 regions for IT: eu-milan-1, eu-turin-1; per-region availability unverified without authed probe. Compute Shapes window.ohcglobal || document.write(' \\x3C/script>') Oracle Cloud Infrastructure Documentation All Pages Skip to main content Compute Shapes A shape is a template that determines the num",
-    "probe_duration_ms": 66,
+    "probe_duration_ms": 174,
     "probe_version": "0.1.0",
     "taxonomy_version": "taxonomy_v1"
   },
   {
-    "timestamp": "2026-04-26T17:04:24.462Z",
+    "timestamp": "2026-04-26T17:59:51.495Z",
     "provider": "oci",
     "country": "IT",
     "region": "oci-catalog",
@@ -432,12 +432,12 @@
     "request_hash": "9683ae3b4ca5cd9b46e4be2e8b837223a56949c991cae5e748ec82715d05493b",
     "response_hash": "e343d74bd83e4f23f17cce68909eaab415d624a034999372d13b9748dc88b83e",
     "response_excerpt": "CATALOG ONLY — OCI shape BM.GPU.MI300X.8 listed in public catalog; OCI has these G7 regions for IT: eu-milan-1, eu-turin-1; per-region availability unverified without authed probe. Compute Shapes window.ohcglobal || document.write(' \\x3C/script>') Oracle Cloud Infrastructure Documentation All Pages Skip to main content Compute Shapes A shape is a template that determines the num",
-    "probe_duration_ms": 66,
+    "probe_duration_ms": 174,
     "probe_version": "0.1.0",
     "taxonomy_version": "taxonomy_v1"
   },
   {
-    "timestamp": "2026-04-26T17:04:24.462Z",
+    "timestamp": "2026-04-26T17:59:51.495Z",
     "provider": "oci",
     "country": "IT",
     "region": "oci-catalog",
@@ -451,12 +451,12 @@
     "request_hash": "9683ae3b4ca5cd9b46e4be2e8b837223a56949c991cae5e748ec82715d05493b",
     "response_hash": "e343d74bd83e4f23f17cce68909eaab415d624a034999372d13b9748dc88b83e",
     "response_excerpt": "CATALOG ONLY — OCI shape BM.GPU.MI355X.8 listed in public catalog; OCI has these G7 regions for IT: eu-milan-1, eu-turin-1; per-region availability unverified without authed probe. Compute Shapes window.ohcglobal || document.write(' \\x3C/script>') Oracle Cloud Infrastructure Documentation All Pages Skip to main content Compute Shapes A shape is a template that determines the num",
-    "probe_duration_ms": 66,
+    "probe_duration_ms": 174,
     "probe_version": "0.1.0",
     "taxonomy_version": "taxonomy_v1"
   },
   {
-    "timestamp": "2026-04-26T17:04:24.462Z",
+    "timestamp": "2026-04-26T17:59:51.495Z",
     "provider": "oci",
     "country": "JP",
     "region": "oci-catalog",
@@ -470,12 +470,12 @@
     "request_hash": "9683ae3b4ca5cd9b46e4be2e8b837223a56949c991cae5e748ec82715d05493b",
     "response_hash": "e343d74bd83e4f23f17cce68909eaab415d624a034999372d13b9748dc88b83e",
     "response_excerpt": "CATALOG ONLY — OCI shape BM.GPU.H100.8 listed in public catalog; OCI has these G7 regions for JP: ap-osaka-1, ap-tokyo-1; per-region availability unverified without authed probe. Compute Shapes window.ohcglobal || document.write(' \\x3C/script>') Oracle Cloud Infrastructure Documentation All Pages Skip to main content Compute Shapes A shape is a template that determines the num",
-    "probe_duration_ms": 66,
+    "probe_duration_ms": 174,
     "probe_version": "0.1.0",
     "taxonomy_version": "taxonomy_v1"
   },
   {
-    "timestamp": "2026-04-26T17:04:24.462Z",
+    "timestamp": "2026-04-26T17:59:51.495Z",
     "provider": "oci",
     "country": "JP",
     "region": "oci-catalog",
@@ -489,12 +489,12 @@
     "request_hash": "9683ae3b4ca5cd9b46e4be2e8b837223a56949c991cae5e748ec82715d05493b",
     "response_hash": "e343d74bd83e4f23f17cce68909eaab415d624a034999372d13b9748dc88b83e",
     "response_excerpt": "CATALOG ONLY — OCI shape BM.GPU.H200.8 listed in public catalog; OCI has these G7 regions for JP: ap-osaka-1, ap-tokyo-1; per-region availability unverified without authed probe. Compute Shapes window.ohcglobal || document.write(' \\x3C/script>') Oracle Cloud Infrastructure Documentation All Pages Skip to main content Compute Shapes A shape is a template that determines the num",
-    "probe_duration_ms": 66,
+    "probe_duration_ms": 174,
     "probe_version": "0.1.0",
     "taxonomy_version": "taxonomy_v1"
   },
   {
-    "timestamp": "2026-04-26T17:04:24.462Z",
+    "timestamp": "2026-04-26T17:59:51.495Z",
     "provider": "oci",
     "country": "JP",
     "region": "oci-catalog",
@@ -508,12 +508,12 @@
     "request_hash": "9683ae3b4ca5cd9b46e4be2e8b837223a56949c991cae5e748ec82715d05493b",
     "response_hash": "e343d74bd83e4f23f17cce68909eaab415d624a034999372d13b9748dc88b83e",
     "response_excerpt": "CATALOG ONLY — OCI shape BM.GPU.B200.8 listed in public catalog; OCI has these G7 regions for JP: ap-osaka-1, ap-tokyo-1; per-region availability unverified without authed probe. Compute Shapes window.ohcglobal || document.write(' \\x3C/script>') Oracle Cloud Infrastructure Documentation All Pages Skip to main content Compute Shapes A shape is a template that determines the num",
-    "probe_duration_ms": 66,
+    "probe_duration_ms": 174,
     "probe_version": "0.1.0",
     "taxonomy_version": "taxonomy_v1"
   },
   {
-    "timestamp": "2026-04-26T17:04:24.462Z",
+    "timestamp": "2026-04-26T17:59:51.495Z",
     "provider": "oci",
     "country": "JP",
     "region": "oci-catalog",
@@ -527,12 +527,12 @@
     "request_hash": "9683ae3b4ca5cd9b46e4be2e8b837223a56949c991cae5e748ec82715d05493b",
     "response_hash": "e343d74bd83e4f23f17cce68909eaab415d624a034999372d13b9748dc88b83e",
     "response_excerpt": "CATALOG ONLY — OCI shape BM.GPU.GB200.4 listed in public catalog; OCI has these G7 regions for JP: ap-osaka-1, ap-tokyo-1; per-region availability unverified without authed probe. Compute Shapes window.ohcglobal || document.write(' \\x3C/script>') Oracle Cloud Infrastructure Documentation All Pages Skip to main content Compute Shapes A shape is a template that determines the num",
-    "probe_duration_ms": 66,
+    "probe_duration_ms": 174,
     "probe_version": "0.1.0",
     "taxonomy_version": "taxonomy_v1"
   },
   {
-    "timestamp": "2026-04-26T17:04:24.462Z",
+    "timestamp": "2026-04-26T17:59:51.495Z",
     "provider": "oci",
     "country": "JP",
     "region": "oci-catalog",
@@ -546,12 +546,12 @@
     "request_hash": "9683ae3b4ca5cd9b46e4be2e8b837223a56949c991cae5e748ec82715d05493b",
     "response_hash": "e343d74bd83e4f23f17cce68909eaab415d624a034999372d13b9748dc88b83e",
     "response_excerpt": "CATALOG ONLY — OCI shape BM.GPU.MI300X.8 listed in public catalog; OCI has these G7 regions for JP: ap-osaka-1, ap-tokyo-1; per-region availability unverified without authed probe. Compute Shapes window.ohcglobal || document.write(' \\x3C/script>') Oracle Cloud Infrastructure Documentation All Pages Skip to main content Compute Shapes A shape is a template that determines the num",
-    "probe_duration_ms": 66,
+    "probe_duration_ms": 174,
     "probe_version": "0.1.0",
     "taxonomy_version": "taxonomy_v1"
   },
   {
-    "timestamp": "2026-04-26T17:04:24.462Z",
+    "timestamp": "2026-04-26T17:59:51.495Z",
     "provider": "oci",
     "country": "JP",
     "region": "oci-catalog",
@@ -565,12 +565,12 @@
     "request_hash": "9683ae3b4ca5cd9b46e4be2e8b837223a56949c991cae5e748ec82715d05493b",
     "response_hash": "e343d74bd83e4f23f17cce68909eaab415d624a034999372d13b9748dc88b83e",
     "response_excerpt": "CATALOG ONLY — OCI shape BM.GPU.MI355X.8 listed in public catalog; OCI has these G7 regions for JP: ap-osaka-1, ap-tokyo-1; per-region availability unverified without authed probe. Compute Shapes window.ohcglobal || document.write(' \\x3C/script>') Oracle Cloud Infrastructure Documentation All Pages Skip to main content Compute Shapes A shape is a template that determines the num",
-    "probe_duration_ms": 66,
+    "probe_duration_ms": 174,
     "probe_version": "0.1.0",
     "taxonomy_version": "taxonomy_v1"
   },
   {
-    "timestamp": "2026-04-26T17:04:24.462Z",
+    "timestamp": "2026-04-26T17:59:51.495Z",
     "provider": "oci",
     "country": "UK",
     "region": "oci-catalog",
@@ -584,12 +584,12 @@
     "request_hash": "9683ae3b4ca5cd9b46e4be2e8b837223a56949c991cae5e748ec82715d05493b",
     "response_hash": "e343d74bd83e4f23f17cce68909eaab415d624a034999372d13b9748dc88b83e",
     "response_excerpt": "CATALOG ONLY — OCI shape BM.GPU.H100.8 listed in public catalog; OCI has these G7 regions for UK: uk-london-1, uk-cardiff-1; per-region availability unverified without authed probe. Compute Shapes window.ohcglobal || document.write(' \\x3C/script>') Oracle Cloud Infrastructure Documentation All Pages Skip to main content Compute Shapes A shape is a template that determines the num",
-    "probe_duration_ms": 66,
+    "probe_duration_ms": 174,
     "probe_version": "0.1.0",
     "taxonomy_version": "taxonomy_v1"
   },
   {
-    "timestamp": "2026-04-26T17:04:24.462Z",
+    "timestamp": "2026-04-26T17:59:51.495Z",
     "provider": "oci",
     "country": "UK",
     "region": "oci-catalog",
@@ -603,12 +603,12 @@
     "request_hash": "9683ae3b4ca5cd9b46e4be2e8b837223a56949c991cae5e748ec82715d05493b",
     "response_hash": "e343d74bd83e4f23f17cce68909eaab415d624a034999372d13b9748dc88b83e",
     "response_excerpt": "CATALOG ONLY — OCI shape BM.GPU.H200.8 listed in public catalog; OCI has these G7 regions for UK: uk-london-1, uk-cardiff-1; per-region availability unverified without authed probe. Compute Shapes window.ohcglobal || document.write(' \\x3C/script>') Oracle Cloud Infrastructure Documentation All Pages Skip to main content Compute Shapes A shape is a template that determines the num",
-    "probe_duration_ms": 66,
+    "probe_duration_ms": 174,
     "probe_version": "0.1.0",
     "taxonomy_version": "taxonomy_v1"
   },
   {
-    "timestamp": "2026-04-26T17:04:24.462Z",
+    "timestamp": "2026-04-26T17:59:51.495Z",
     "provider": "oci",
     "country": "UK",
     "region": "oci-catalog",
@@ -622,12 +622,12 @@
     "request_hash": "9683ae3b4ca5cd9b46e4be2e8b837223a56949c991cae5e748ec82715d05493b",
     "response_hash": "e343d74bd83e4f23f17cce68909eaab415d624a034999372d13b9748dc88b83e",
     "response_excerpt": "CATALOG ONLY — OCI shape BM.GPU.B200.8 listed in public catalog; OCI has these G7 regions for UK: uk-london-1, uk-cardiff-1; per-region availability unverified without authed probe. Compute Shapes window.ohcglobal || document.write(' \\x3C/script>') Oracle Cloud Infrastructure Documentation All Pages Skip to main content Compute Shapes A shape is a template that determines the num",
-    "probe_duration_ms": 66,
+    "probe_duration_ms": 174,
     "probe_version": "0.1.0",
     "taxonomy_version": "taxonomy_v1"
   },
   {
-    "timestamp": "2026-04-26T17:04:24.462Z",
+    "timestamp": "2026-04-26T17:59:51.495Z",
     "provider": "oci",
     "country": "UK",
     "region": "oci-catalog",
@@ -641,12 +641,12 @@
     "request_hash": "9683ae3b4ca5cd9b46e4be2e8b837223a56949c991cae5e748ec82715d05493b",
     "response_hash": "e343d74bd83e4f23f17cce68909eaab415d624a034999372d13b9748dc88b83e",
     "response_excerpt": "CATALOG ONLY — OCI shape BM.GPU.GB200.4 listed in public catalog; OCI has these G7 regions for UK: uk-london-1, uk-cardiff-1; per-region availability unverified without authed probe. Compute Shapes window.ohcglobal || document.write(' \\x3C/script>') Oracle Cloud Infrastructure Documentation All Pages Skip to main content Compute Shapes A shape is a template that determines the num",
-    "probe_duration_ms": 66,
+    "probe_duration_ms": 174,
     "probe_version": "0.1.0",
     "taxonomy_version": "taxonomy_v1"
   },
   {
-    "timestamp": "2026-04-26T17:04:24.462Z",
+    "timestamp": "2026-04-26T17:59:51.495Z",
     "provider": "oci",
     "country": "UK",
     "region": "oci-catalog",
@@ -660,12 +660,12 @@
     "request_hash": "9683ae3b4ca5cd9b46e4be2e8b837223a56949c991cae5e748ec82715d05493b",
     "response_hash": "e343d74bd83e4f23f17cce68909eaab415d624a034999372d13b9748dc88b83e",
     "response_excerpt": "CATALOG ONLY — OCI shape BM.GPU.MI300X.8 listed in public catalog; OCI has these G7 regions for UK: uk-london-1, uk-cardiff-1; per-region availability unverified without authed probe. Compute Shapes window.ohcglobal || document.write(' \\x3C/script>') Oracle Cloud Infrastructure Documentation All Pages Skip to main content Compute Shapes A shape is a template that determines the num",
-    "probe_duration_ms": 66,
+    "probe_duration_ms": 174,
     "probe_version": "0.1.0",
     "taxonomy_version": "taxonomy_v1"
   },
   {
-    "timestamp": "2026-04-26T17:04:24.462Z",
+    "timestamp": "2026-04-26T17:59:51.495Z",
     "provider": "oci",
     "country": "UK",
     "region": "oci-catalog",
@@ -679,12 +679,12 @@
     "request_hash": "9683ae3b4ca5cd9b46e4be2e8b837223a56949c991cae5e748ec82715d05493b",
     "response_hash": "e343d74bd83e4f23f17cce68909eaab415d624a034999372d13b9748dc88b83e",
     "response_excerpt": "CATALOG ONLY — OCI shape BM.GPU.MI355X.8 listed in public catalog; OCI has these G7 regions for UK: uk-london-1, uk-cardiff-1; per-region availability unverified without authed probe. Compute Shapes window.ohcglobal || document.write(' \\x3C/script>') Oracle Cloud Infrastructure Documentation All Pages Skip to main content Compute Shapes A shape is a template that determines the num",
-    "probe_duration_ms": 66,
+    "probe_duration_ms": 174,
     "probe_version": "0.1.0",
     "taxonomy_version": "taxonomy_v1"
   },
   {
-    "timestamp": "2026-04-26T17:04:24.462Z",
+    "timestamp": "2026-04-26T17:59:51.495Z",
     "provider": "oci",
     "country": "US",
     "region": "oci-catalog",
@@ -698,12 +698,12 @@
     "request_hash": "9683ae3b4ca5cd9b46e4be2e8b837223a56949c991cae5e748ec82715d05493b",
     "response_hash": "e343d74bd83e4f23f17cce68909eaab415d624a034999372d13b9748dc88b83e",
     "response_excerpt": "CATALOG ONLY — OCI shape BM.GPU.H100.8 listed in public catalog; OCI has these G7 regions for US: us-ashburn-1, us-chicago-1, us-phoenix-1, us-sanjose-1; per-region availability unverified without authed probe. Compute Shapes window.ohcglobal || document.write(' \\x3C/script>') Oracle Cloud Infrastructure Documentation All Pages Skip to main content Compute Shapes A shape is a template that determines the num",
-    "probe_duration_ms": 66,
+    "probe_duration_ms": 174,
     "probe_version": "0.1.0",
     "taxonomy_version": "taxonomy_v1"
   },
   {
-    "timestamp": "2026-04-26T17:04:24.462Z",
+    "timestamp": "2026-04-26T17:59:51.495Z",
     "provider": "oci",
     "country": "US",
     "region": "oci-catalog",
@@ -717,12 +717,12 @@
     "request_hash": "9683ae3b4ca5cd9b46e4be2e8b837223a56949c991cae5e748ec82715d05493b",
     "response_hash": "e343d74bd83e4f23f17cce68909eaab415d624a034999372d13b9748dc88b83e",
     "response_excerpt": "CATALOG ONLY — OCI shape BM.GPU.H200.8 listed in public catalog; OCI has these G7 regions for US: us-ashburn-1, us-chicago-1, us-phoenix-1, us-sanjose-1; per-region availability unverified without authed probe. Compute Shapes window.ohcglobal || document.write(' \\x3C/script>') Oracle Cloud Infrastructure Documentation All Pages Skip to main content Compute Shapes A shape is a template that determines the num",
-    "probe_duration_ms": 66,
+    "probe_duration_ms": 174,
     "probe_version": "0.1.0",
     "taxonomy_version": "taxonomy_v1"
   },
   {
-    "timestamp": "2026-04-26T17:04:24.462Z",
+    "timestamp": "2026-04-26T17:59:51.495Z",
     "provider": "oci",
     "country": "US",
     "region": "oci-catalog",
@@ -736,12 +736,12 @@
     "request_hash": "9683ae3b4ca5cd9b46e4be2e8b837223a56949c991cae5e748ec82715d05493b",
     "response_hash": "e343d74bd83e4f23f17cce68909eaab415d624a034999372d13b9748dc88b83e",
     "response_excerpt": "CATALOG ONLY — OCI shape BM.GPU.B200.8 listed in public catalog; OCI has these G7 regions for US: us-ashburn-1, us-chicago-1, us-phoenix-1, us-sanjose-1; per-region availability unverified without authed probe. Compute Shapes window.ohcglobal || document.write(' \\x3C/script>') Oracle Cloud Infrastructure Documentation All Pages Skip to main content Compute Shapes A shape is a template that determines the num",
-    "probe_duration_ms": 66,
+    "probe_duration_ms": 174,
     "probe_version": "0.1.0",
     "taxonomy_version": "taxonomy_v1"
   },
   {
-    "timestamp": "2026-04-26T17:04:24.462Z",
+    "timestamp": "2026-04-26T17:59:51.495Z",
     "provider": "oci",
     "country": "US",
     "region": "oci-catalog",
@@ -755,12 +755,12 @@
     "request_hash": "9683ae3b4ca5cd9b46e4be2e8b837223a56949c991cae5e748ec82715d05493b",
     "response_hash": "e343d74bd83e4f23f17cce68909eaab415d624a034999372d13b9748dc88b83e",
     "response_excerpt": "CATALOG ONLY — OCI shape BM.GPU.GB200.4 listed in public catalog; OCI has these G7 regions for US: us-ashburn-1, us-chicago-1, us-phoenix-1, us-sanjose-1; per-region availability unverified without authed probe. Compute Shapes window.ohcglobal || document.write(' \\x3C/script>') Oracle Cloud Infrastructure Documentation All Pages Skip to main content Compute Shapes A shape is a template that determines the num",
-    "probe_duration_ms": 66,
+    "probe_duration_ms": 174,
     "probe_version": "0.1.0",
     "taxonomy_version": "taxonomy_v1"
   },
   {
-    "timestamp": "2026-04-26T17:04:24.462Z",
+    "timestamp": "2026-04-26T17:59:51.495Z",
     "provider": "oci",
     "country": "US",
     "region": "oci-catalog",
@@ -774,12 +774,12 @@
     "request_hash": "9683ae3b4ca5cd9b46e4be2e8b837223a56949c991cae5e748ec82715d05493b",
     "response_hash": "e343d74bd83e4f23f17cce68909eaab415d624a034999372d13b9748dc88b83e",
     "response_excerpt": "CATALOG ONLY — OCI shape BM.GPU.MI300X.8 listed in public catalog; OCI has these G7 regions for US: us-ashburn-1, us-chicago-1, us-phoenix-1, us-sanjose-1; per-region availability unverified without authed probe. Compute Shapes window.ohcglobal || document.write(' \\x3C/script>') Oracle Cloud Infrastructure Documentation All Pages Skip to main content Compute Shapes A shape is a template that determines the num",
-    "probe_duration_ms": 66,
+    "probe_duration_ms": 174,
     "probe_version": "0.1.0",
     "taxonomy_version": "taxonomy_v1"
   },
   {
-    "timestamp": "2026-04-26T17:04:24.462Z",
+    "timestamp": "2026-04-26T17:59:51.495Z",
     "provider": "oci",
     "country": "US",
     "region": "oci-catalog",
@@ -793,7 +793,7 @@
     "request_hash": "9683ae3b4ca5cd9b46e4be2e8b837223a56949c991cae5e748ec82715d05493b",
     "response_hash": "e343d74bd83e4f23f17cce68909eaab415d624a034999372d13b9748dc88b83e",
     "response_excerpt": "CATALOG ONLY — OCI shape BM.GPU.MI355X.8 listed in public catalog; OCI has these G7 regions for US: us-ashburn-1, us-chicago-1, us-phoenix-1, us-sanjose-1; per-region availability unverified without authed probe. Compute Shapes window.ohcglobal || document.write(' \\x3C/script>') Oracle Cloud Infrastructure Documentation All Pages Skip to main content Compute Shapes A shape is a template that determines the num",
-    "probe_duration_ms": 66,
+    "probe_duration_ms": 174,
     "probe_version": "0.1.0",
     "taxonomy_version": "taxonomy_v1"
   }
