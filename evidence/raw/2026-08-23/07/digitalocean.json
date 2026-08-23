@@ -1,6 +1,6 @@
 [
   {
-    "timestamp": "2026-08-23T07:04:05.744Z",
+    "timestamp": "2026-08-23T07:48:23.879Z",
     "provider": "digitalocean",
     "country": "US",
     "region": "nyc2",
@@ -14,12 +14,12 @@
     "request_hash": "d7f4438f67bb947bb0e9ac2d252c26befede377def92091f8a48252e7fca4c8b",
     "response_hash": "34442b11b8b2616b18f23709bed74441a032704d1fa11d9e3fc8c13e0247f1aa",
     "response_excerpt": "GPU Droplets | DigitalOcean .iMWrUY{text-decoration:none;}/*!sc*/ .iMWrUY.button-link{align-items:center;background-color:transparent;border:1px solid var(--border-brand);border-radius:100px;color:var(--text-accent);cursor:pointer;display:flex;font-size:1em;font-weight:700;justify-content:center;padding:16px 32px;transition:all 0.3s ease;}/*!sc*/ .iMWrUY.button-link:hover{background-color:rgba(0,105,255,0.15);color:var(--text-accent);transition:all 0.3s ease;}/*!sc*/ .iMWrUY.button-link:focus{ba",
-    "probe_duration_ms": 355,
+    "probe_duration_ms": 79,
     "probe_version": "0.1.0",
     "taxonomy_version": "taxonomy_v1"
   },
   {
-    "timestamp": "2026-08-23T07:04:05.744Z",
+    "timestamp": "2026-08-23T07:48:23.879Z",
     "provider": "digitalocean",
     "country": "US",
     "region": "nyc2",
@@ -33,12 +33,12 @@
     "request_hash": "d7f4438f67bb947bb0e9ac2d252c26befede377def92091f8a48252e7fca4c8b",
     "response_hash": "34442b11b8b2616b18f23709bed74441a032704d1fa11d9e3fc8c13e0247f1aa",
     "response_excerpt": "GPU Droplets | DigitalOcean .iMWrUY{text-decoration:none;}/*!sc*/ .iMWrUY.button-link{align-items:center;background-color:transparent;border:1px solid var(--border-brand);border-radius:100px;color:var(--text-accent);cursor:pointer;display:flex;font-size:1em;font-weight:700;justify-content:center;padding:16px 32px;transition:all 0.3s ease;}/*!sc*/ .iMWrUY.button-link:hover{background-color:rgba(0,105,255,0.15);color:var(--text-accent);transition:all 0.3s ease;}/*!sc*/ .iMWrUY.button-link:focus{ba",
-    "probe_duration_ms": 355,
+    "probe_duration_ms": 79,
     "probe_version": "0.1.0",
     "taxonomy_version": "taxonomy_v1"
   },
   {
-    "timestamp": "2026-08-23T07:04:05.744Z",
+    "timestamp": "2026-08-23T07:48:23.879Z",
     "provider": "digitalocean",
     "country": "US",
     "region": "nyc2",
@@ -52,12 +52,12 @@
     "request_hash": "d7f4438f67bb947bb0e9ac2d252c26befede377def92091f8a48252e7fca4c8b",
     "response_hash": "34442b11b8b2616b18f23709bed74441a032704d1fa11d9e3fc8c13e0247f1aa",
     "response_excerpt": "GPU Droplets | DigitalOcean .iMWrUY{text-decoration:none;}/*!sc*/ .iMWrUY.button-link{align-items:center;background-color:transparent;border:1px solid var(--border-brand);border-radius:100px;color:var(--text-accent);cursor:pointer;display:flex;font-size:1em;font-weight:700;justify-content:center;padding:16px 32px;transition:all 0.3s ease;}/*!sc*/ .iMWrUY.button-link:hover{background-color:rgba(0,105,255,0.15);color:var(--text-accent);transition:all 0.3s ease;}/*!sc*/ .iMWrUY.button-link:focus{ba",
-    "probe_duration_ms": 355,
+    "probe_duration_ms": 79,
     "probe_version": "0.1.0",
     "taxonomy_version": "taxonomy_v1"
   },
   {
-    "timestamp": "2026-08-23T07:04:05.744Z",
+    "timestamp": "2026-08-23T07:48:23.879Z",
     "provider": "digitalocean",
     "country": "US",
     "region": "nyc2",
@@ -71,12 +71,12 @@
     "request_hash": "d7f4438f67bb947bb0e9ac2d252c26befede377def92091f8a48252e7fca4c8b",
     "response_hash": "34442b11b8b2616b18f23709bed74441a032704d1fa11d9e3fc8c13e0247f1aa",
     "response_excerpt": "GPU Droplets | DigitalOcean .iMWrUY{text-decoration:none;}/*!sc*/ .iMWrUY.button-link{align-items:center;background-color:transparent;border:1px solid var(--border-brand);border-radius:100px;color:var(--text-accent);cursor:pointer;display:flex;font-size:1em;font-weight:700;justify-content:center;padding:16px 32px;transition:all 0.3s ease;}/*!sc*/ .iMWrUY.button-link:hover{background-color:rgba(0,105,255,0.15);color:var(--text-accent);transition:all 0.3s ease;}/*!sc*/ .iMWrUY.button-link:focus{ba",
-    "probe_duration_ms": 355,
+    "probe_duration_ms": 79,
     "probe_version": "0.1.0",
     "taxonomy_version": "taxonomy_v1"
   },
   {
-    "timestamp": "2026-08-23T07:04:05.744Z",
+    "timestamp": "2026-08-23T07:48:23.879Z",
     "provider": "digitalocean",
     "country": "CA",
     "region": "tor1",
@@ -90,12 +90,12 @@
     "request_hash": "d7f4438f67bb947bb0e9ac2d252c26befede377def92091f8a48252e7fca4c8b",
     "response_hash": "34442b11b8b2616b18f23709bed74441a032704d1fa11d9e3fc8c13e0247f1aa",
     "response_excerpt": "GPU Droplets | DigitalOcean .iMWrUY{text-decoration:none;}/*!sc*/ .iMWrUY.button-link{align-items:center;background-color:transparent;border:1px solid var(--border-brand);border-radius:100px;color:var(--text-accent);cursor:pointer;display:flex;font-size:1em;font-weight:700;justify-content:center;padding:16px 32px;transition:all 0.3s ease;}/*!sc*/ .iMWrUY.button-link:hover{background-color:rgba(0,105,255,0.15);color:var(--text-accent);transition:all 0.3s ease;}/*!sc*/ .iMWrUY.button-link:focus{ba",
-    "probe_duration_ms": 355,
+    "probe_duration_ms": 79,
     "probe_version": "0.1.0",
     "taxonomy_version": "taxonomy_v1"
   },
   {
-    "timestamp": "2026-08-23T07:04:05.744Z",
+    "timestamp": "2026-08-23T07:48:23.879Z",
     "provider": "digitalocean",
     "country": "CA",
     "region": "tor1",
@@ -109,12 +109,12 @@
     "request_hash": "d7f4438f67bb947bb0e9ac2d252c26befede377def92091f8a48252e7fca4c8b",
     "response_hash": "34442b11b8b2616b18f23709bed74441a032704d1fa11d9e3fc8c13e0247f1aa",
     "response_excerpt": "GPU Droplets | DigitalOcean .iMWrUY{text-decoration:none;}/*!sc*/ .iMWrUY.button-link{align-items:center;background-color:transparent;border:1px solid var(--border-brand);border-radius:100px;color:var(--text-accent);cursor:pointer;display:flex;font-size:1em;font-weight:700;justify-content:center;padding:16px 32px;transition:all 0.3s ease;}/*!sc*/ .iMWrUY.button-link:hover{background-color:rgba(0,105,255,0.15);color:var(--text-accent);transition:all 0.3s ease;}/*!sc*/ .iMWrUY.button-link:focus{ba",
-    "probe_duration_ms": 355,
+    "probe_duration_ms": 79,
     "probe_version": "0.1.0",
     "taxonomy_version": "taxonomy_v1"
   },
   {
-    "timestamp": "2026-08-23T07:04:05.744Z",
+    "timestamp": "2026-08-23T07:48:23.879Z",
     "provider": "digitalocean",
     "country": "CA",
     "region": "tor1",
@@ -128,12 +128,12 @@
     "request_hash": "d7f4438f67bb947bb0e9ac2d252c26befede377def92091f8a48252e7fca4c8b",
     "response_hash": "34442b11b8b2616b18f23709bed74441a032704d1fa11d9e3fc8c13e0247f1aa",
     "response_excerpt": "GPU Droplets | DigitalOcean .iMWrUY{text-decoration:none;}/*!sc*/ .iMWrUY.button-link{align-items:center;background-color:transparent;border:1px solid var(--border-brand);border-radius:100px;color:var(--text-accent);cursor:pointer;display:flex;font-size:1em;font-weight:700;justify-content:center;padding:16px 32px;transition:all 0.3s ease;}/*!sc*/ .iMWrUY.button-link:hover{background-color:rgba(0,105,255,0.15);color:var(--text-accent);transition:all 0.3s ease;}/*!sc*/ .iMWrUY.button-link:focus{ba",
-    "probe_duration_ms": 355,
+    "probe_duration_ms": 79,
     "probe_version": "0.1.0",
     "taxonomy_version": "taxonomy_v1"
   },
   {
-    "timestamp": "2026-08-23T07:04:05.744Z",
+    "timestamp": "2026-08-23T07:48:23.879Z",
     "provider": "digitalocean",
     "country": "CA",
     "region": "tor1",
@@ -147,12 +147,12 @@
     "request_hash": "d7f4438f67bb947bb0e9ac2d252c26befede377def92091f8a48252e7fca4c8b",
     "response_hash": "34442b11b8b2616b18f23709bed74441a032704d1fa11d9e3fc8c13e0247f1aa",
     "response_excerpt": "GPU Droplets | DigitalOcean .iMWrUY{text-decoration:none;}/*!sc*/ .iMWrUY.button-link{align-items:center;background-color:transparent;border:1px solid var(--border-brand);border-radius:100px;color:var(--text-accent);cursor:pointer;display:flex;font-size:1em;font-weight:700;justify-content:center;padding:16px 32px;transition:all 0.3s ease;}/*!sc*/ .iMWrUY.button-link:hover{background-color:rgba(0,105,255,0.15);color:var(--text-accent);transition:all 0.3s ease;}/*!sc*/ .iMWrUY.button-link:focus{ba",
-    "probe_duration_ms": 355,
+    "probe_duration_ms": 79,
     "probe_version": "0.1.0",
     "taxonomy_version": "taxonomy_v1"
   },
   {
-    "timestamp": "2026-08-23T07:04:05.744Z",
+    "timestamp": "2026-08-23T07:48:23.879Z",
     "provider": "digitalocean",
     "country": "US",
     "region": "atl1",
@@ -166,12 +166,12 @@
     "request_hash": "d7f4438f67bb947bb0e9ac2d252c26befede377def92091f8a48252e7fca4c8b",
     "response_hash": "34442b11b8b2616b18f23709bed74441a032704d1fa11d9e3fc8c13e0247f1aa",
     "response_excerpt": "GPU Droplets | DigitalOcean .iMWrUY{text-decoration:none;}/*!sc*/ .iMWrUY.button-link{align-items:center;background-color:transparent;border:1px solid var(--border-brand);border-radius:100px;color:var(--text-accent);cursor:pointer;display:flex;font-size:1em;font-weight:700;justify-content:center;padding:16px 32px;transition:all 0.3s ease;}/*!sc*/ .iMWrUY.button-link:hover{background-color:rgba(0,105,255,0.15);color:var(--text-accent);transition:all 0.3s ease;}/*!sc*/ .iMWrUY.button-link:focus{ba",
-    "probe_duration_ms": 355,
+    "probe_duration_ms": 79,
     "probe_version": "0.1.0",
     "taxonomy_version": "taxonomy_v1"
   },
   {
-    "timestamp": "2026-08-23T07:04:05.744Z",
+    "timestamp": "2026-08-23T07:48:23.879Z",
     "provider": "digitalocean",
     "country": "US",
     "region": "atl1",
@@ -185,12 +185,12 @@
     "request_hash": "d7f4438f67bb947bb0e9ac2d252c26befede377def92091f8a48252e7fca4c8b",
     "response_hash": "34442b11b8b2616b18f23709bed74441a032704d1fa11d9e3fc8c13e0247f1aa",
     "response_excerpt": "GPU Droplets | DigitalOcean .iMWrUY{text-decoration:none;}/*!sc*/ .iMWrUY.button-link{align-items:center;background-color:transparent;border:1px solid var(--border-brand);border-radius:100px;color:var(--text-accent);cursor:pointer;display:flex;font-size:1em;font-weight:700;justify-content:center;padding:16px 32px;transition:all 0.3s ease;}/*!sc*/ .iMWrUY.button-link:hover{background-color:rgba(0,105,255,0.15);color:var(--text-accent);transition:all 0.3s ease;}/*!sc*/ .iMWrUY.button-link:focus{ba",
-    "probe_duration_ms": 355,
+    "probe_duration_ms": 79,
     "probe_version": "0.1.0",
     "taxonomy_version": "taxonomy_v1"
   },
   {
-    "timestamp": "2026-08-23T07:04:05.744Z",
+    "timestamp": "2026-08-23T07:48:23.879Z",
     "provider": "digitalocean",
     "country": "US",
     "region": "atl1",
@@ -204,12 +204,12 @@
     "request_hash": "d7f4438f67bb947bb0e9ac2d252c26befede377def92091f8a48252e7fca4c8b",
     "response_hash": "34442b11b8b2616b18f23709bed74441a032704d1fa11d9e3fc8c13e0247f1aa",
     "response_excerpt": "GPU Droplets | DigitalOcean .iMWrUY{text-decoration:none;}/*!sc*/ .iMWrUY.button-link{align-items:center;background-color:transparent;border:1px solid var(--border-brand);border-radius:100px;color:var(--text-accent);cursor:pointer;display:flex;font-size:1em;font-weight:700;justify-content:center;padding:16px 32px;transition:all 0.3s ease;}/*!sc*/ .iMWrUY.button-link:hover{background-color:rgba(0,105,255,0.15);color:var(--text-accent);transition:all 0.3s ease;}/*!sc*/ .iMWrUY.button-link:focus{ba",
-    "probe_duration_ms": 355,
+    "probe_duration_ms": 79,
     "probe_version": "0.1.0",
     "taxonomy_version": "taxonomy_v1"
   },
   {
-    "timestamp": "2026-08-23T07:04:05.744Z",
+    "timestamp": "2026-08-23T07:48:23.879Z",
     "provider": "digitalocean",
     "country": "US",
     "region": "atl1",
@@ -223,12 +223,12 @@
     "request_hash": "d7f4438f67bb947bb0e9ac2d252c26befede377def92091f8a48252e7fca4c8b",
     "response_hash": "34442b11b8b2616b18f23709bed74441a032704d1fa11d9e3fc8c13e0247f1aa",
     "response_excerpt": "GPU Droplets | DigitalOcean .iMWrUY{text-decoration:none;}/*!sc*/ .iMWrUY.button-link{align-items:center;background-color:transparent;border:1px solid var(--border-brand);border-radius:100px;color:var(--text-accent);cursor:pointer;display:flex;font-size:1em;font-weight:700;justify-content:center;padding:16px 32px;transition:all 0.3s ease;}/*!sc*/ .iMWrUY.button-link:hover{background-color:rgba(0,105,255,0.15);color:var(--text-accent);transition:all 0.3s ease;}/*!sc*/ .iMWrUY.button-link:focus{ba",
-    "probe_duration_ms": 355,
+    "probe_duration_ms": 79,
     "probe_version": "0.1.0",
     "taxonomy_version": "taxonomy_v1"
   },
   {
-    "timestamp": "2026-08-23T07:04:05.744Z",
+    "timestamp": "2026-08-23T07:48:23.879Z",
     "provider": "digitalocean",
     "country": "US",
     "region": "ric1",
@@ -242,12 +242,12 @@
     "request_hash": "d7f4438f67bb947bb0e9ac2d252c26befede377def92091f8a48252e7fca4c8b",
     "response_hash": "34442b11b8b2616b18f23709bed74441a032704d1fa11d9e3fc8c13e0247f1aa",
     "response_excerpt": "GPU Droplets | DigitalOcean .iMWrUY{text-decoration:none;}/*!sc*/ .iMWrUY.button-link{align-items:center;background-color:transparent;border:1px solid var(--border-brand);border-radius:100px;color:var(--text-accent);cursor:pointer;display:flex;font-size:1em;font-weight:700;justify-content:center;padding:16px 32px;transition:all 0.3s ease;}/*!sc*/ .iMWrUY.button-link:hover{background-color:rgba(0,105,255,0.15);color:var(--text-accent);transition:all 0.3s ease;}/*!sc*/ .iMWrUY.button-link:focus{ba",
-    "probe_duration_ms": 355,
+    "probe_duration_ms": 79,
     "probe_version": "0.1.0",
     "taxonomy_version": "taxonomy_v1"
   },
   {
-    "timestamp": "2026-08-23T07:04:05.744Z",
+    "timestamp": "2026-08-23T07:48:23.879Z",
     "provider": "digitalocean",
     "country": "US",
     "region": "ric1",
@@ -261,12 +261,12 @@
     "request_hash": "d7f4438f67bb947bb0e9ac2d252c26befede377def92091f8a48252e7fca4c8b",
     "response_hash": "34442b11b8b2616b18f23709bed74441a032704d1fa11d9e3fc8c13e0247f1aa",
     "response_excerpt": "GPU Droplets | DigitalOcean .iMWrUY{text-decoration:none;}/*!sc*/ .iMWrUY.button-link{align-items:center;background-color:transparent;border:1px solid var(--border-brand);border-radius:100px;color:var(--text-accent);cursor:pointer;display:flex;font-size:1em;font-weight:700;justify-content:center;padding:16px 32px;transition:all 0.3s ease;}/*!sc*/ .iMWrUY.button-link:hover{background-color:rgba(0,105,255,0.15);color:var(--text-accent);transition:all 0.3s ease;}/*!sc*/ .iMWrUY.button-link:focus{ba",
-    "probe_duration_ms": 355,
+    "probe_duration_ms": 79,
     "probe_version": "0.1.0",
     "taxonomy_version": "taxonomy_v1"
   },
   {
-    "timestamp": "2026-08-23T07:04:05.744Z",
+    "timestamp": "2026-08-23T07:48:23.879Z",
     "provider": "digitalocean",
     "country": "US",
     "region": "ric1",
@@ -280,12 +280,12 @@
     "request_hash": "d7f4438f67bb947bb0e9ac2d252c26befede377def92091f8a48252e7fca4c8b",
     "response_hash": "34442b11b8b2616b18f23709bed74441a032704d1fa11d9e3fc8c13e0247f1aa",
     "response_excerpt": "GPU Droplets | DigitalOcean .iMWrUY{text-decoration:none;}/*!sc*/ .iMWrUY.button-link{align-items:center;background-color:transparent;border:1px solid var(--border-brand);border-radius:100px;color:var(--text-accent);cursor:pointer;display:flex;font-size:1em;font-weight:700;justify-content:center;padding:16px 32px;transition:all 0.3s ease;}/*!sc*/ .iMWrUY.button-link:hover{background-color:rgba(0,105,255,0.15);color:var(--text-accent);transition:all 0.3s ease;}/*!sc*/ .iMWrUY.button-link:focus{ba",
-    "probe_duration_ms": 355,
+    "probe_duration_ms": 79,
     "probe_version": "0.1.0",
     "taxonomy_version": "taxonomy_v1"
   },
   {
-    "timestamp": "2026-08-23T07:04:05.744Z",
+    "timestamp": "2026-08-23T07:48:23.879Z",
     "provider": "digitalocean",
     "country": "US",
     "region": "ric1",
@@ -299,7 +299,7 @@
     "request_hash": "d7f4438f67bb947bb0e9ac2d252c26befede377def92091f8a48252e7fca4c8b",
     "response_hash": "34442b11b8b2616b18f23709bed74441a032704d1fa11d9e3fc8c13e0247f1aa",
     "response_excerpt": "GPU Droplets | DigitalOcean .iMWrUY{text-decoration:none;}/*!sc*/ .iMWrUY.button-link{align-items:center;background-color:transparent;border:1px solid var(--border-brand);border-radius:100px;color:var(--text-accent);cursor:pointer;display:flex;font-size:1em;font-weight:700;justify-content:center;padding:16px 32px;transition:all 0.3s ease;}/*!sc*/ .iMWrUY.button-link:hover{background-color:rgba(0,105,255,0.15);color:var(--text-accent);transition:all 0.3s ease;}/*!sc*/ .iMWrUY.button-link:focus{ba",
-    "probe_duration_ms": 355,
+    "probe_duration_ms": 79,
     "probe_version": "0.1.0",
     "taxonomy_version": "taxonomy_v1"
   }
